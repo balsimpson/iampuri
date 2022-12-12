@@ -87,8 +87,23 @@
 			<div class="px-4 mx-auto bg-white max-w-7xl sm:px-6 md:px-12 lg:px-24">
 			</div>
 		</section>
+		
 		<!-- services -->
 		<div class="relative max-w-5xl p-6 pb-12 mx-auto">
+			<div class="absolute -right-[300px] scale-50 bottom-0 z-90 opacity-60">
+				<svg width="832" height="974" viewBox="0 0 832 974" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path
+						d="M479.719 13.6427C636.098 -32.6918 586.868 48.3936 699.808 141.063C714.288 153.662 717.184 170.022 722.976 254.003C728.767 337.984 763.518 340.88 812.749 491.467C861.979 642.055 809.853 891.103 685.329 821.601C560.805 752.099 572.388 943.229 479.719 966.396C387.05 989.564 77.1881 960.605 22.1658 856.352C-32.8564 752.099 30.8536 694.181 77.1881 642.055C123.523 589.928 117.731 393.007 111.939 340.88C106.147 288.754 152.482 245.315 259.63 225.044C366.779 204.773 323.34 59.9772 479.719 13.6427Z"
+						fill="#F77A40" />
+					<path
+						d="M490.43 89.2243C630.451 47.7364 586.37 120.34 687.497 203.316C700.462 214.598 703.055 229.246 708.241 304.443C713.427 379.639 744.543 382.232 788.624 517.068C832.705 651.903 786.031 874.901 674.532 812.669C563.033 750.437 573.405 921.575 490.43 942.319C407.454 963.062 130.004 937.133 80.7369 843.785C31.47 750.437 88.5159 698.577 130.004 651.904C171.492 605.23 166.306 428.906 161.12 382.232C155.934 335.559 197.422 296.664 293.362 278.513C389.303 260.362 350.408 130.712 490.43 89.2243Z"
+						fill="#FB9700" />
+					<path
+						d="M509.432 166.42C632.166 130.054 593.528 193.694 682.169 266.425C693.533 276.314 695.806 289.153 700.351 355.066C704.897 420.979 732.171 423.252 770.81 541.44C809.448 659.628 768.537 855.093 670.804 800.544C573.072 745.996 582.163 896.004 509.432 914.187C436.701 932.37 193.506 909.641 150.322 827.819C107.138 745.996 157.14 700.539 193.506 659.628C229.872 618.717 225.326 464.163 220.78 423.252C216.235 382.34 252.6 348.247 336.696 332.338C420.791 316.428 386.698 202.785 509.432 166.42Z"
+						fill="#FCC97E" />
+				</svg>
+
+			</div>
 			<div class="z-50 flex flex-col items-center justify-center gap-8 my-12 sm:flex-row">
 				<img src="/pata_painting1.jpg" alt=""
 					class="object-cover w-64 h-64 rounded-full shrink-0 ring-4 ring-offset-4 ring-sky-500">
@@ -125,6 +140,7 @@
 
 
 			<div class="grid grid-cols-1 gap-2 sm:grid-cols-2 md:grid-cols-4">
+
 				<BaseCardImg title="Temple Visit"
 					description="Experience the serenity and beauty of the temple with a personalized visit."
 					image="https://images.odishatv.in/uploadimage/library/16_9/16_9_0/IMAGE_1645674093.jpg"
@@ -149,9 +165,73 @@
 			</div>
 		</div>
 
+  <form class="w-full max-w-lg">
+    <h2 class="mb-4 text-2xl font-bold">Book Your Bicycle Tour</h2>
 
+    <div class="mb-4">
+      <label class="block mb-2 text-sm font-bold text-gray-700" for="name">
+        Name
+      </label>
+      <input
+        class="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+        id="name"
+        type="text"
+        placeholder="Enter your name"
+        v-model="name"
+      />
+    </div>
+
+    <div class="mb-4">
+      <label class="block mb-2 text-sm font-bold text-gray-700" for="email">
+        Email
+      </label>
+      <input
+        class="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+        id="email"
+        type="email"
+        placeholder="Enter your email"
+        v-model="email"
+      />
+    </div>
+
+    <div class="mb-4">
+      <label class="block mb-2 text-sm font-bold text-gray-700" for="phone">
+        Phone
+      </label>
+      <input
+        class="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+        id="phone"
+        type="tel"
+        placeholder="Enter your phone number"
+        v-model="phone"
+      />
+    </div>
+
+    <div class="mb-4">
+      <label class="block mb-2 text-sm font-bold text-gray-700" for="date">
+        Date and Time
+      </label>
+      <input
+        class="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+        id="date"
+        type="datetime-local"
+        placeholder="Enter the date and time of the tour"
+        v-model="date"
+      />
+    </div>
+
+    <div class="mb-4">
+      <label class="block mb-2 text-sm font-bold text-gray-700" for="tour-name">
+        Tour Name
+      </label>
+      <input
+        class="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow">
+		</div>
+	</form>
+
+		
 		<!-- testimonials -->
-		<section class="bg-white dark:bg-gray-900">
+		<section class="relative bg-white dark:bg-gray-900">
 			<div class="container px-6 py-10 mx-auto">
 				<h1 class="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">
 					What our <span class="text-blue-500 ">clients</span> say
@@ -219,14 +299,22 @@
 					</div>
 				</section>
 			</div>
+
+			<svg width="1513" height="240" viewBox="0 0 1513 240" fill="none" xmlns="http://www.w3.org/2000/svg"
+				class="absolute z-10 w-full -bottom-44">
+				<path
+					d="M146.393 239.733C45.4644 231.868 0.816284 124.088 0.816284 51.0829V0.332767L1512.86 0.332584V48.0092C1068.62 114.676 187.241 242.916 146.393 239.733Z"
+					fill="white" />
+			</svg>
+
 		</section>
 
 
 		<!-- bicycle tours -->
-		<div class="py-12 bg-gradient-to-b from-white via-teal-800 to-teal-800">
+		<div class="pb-12 bg-teal-800 pt-28 ">
 			<div class="max-w-5xl p-6 mx-auto text-white">
 
-				<div class="grid gap-4 sm:grid-cols-2">
+				<div class="z-50 grid gap-4 sm:grid-cols-2">
 					<div class="p-6 text-teal-800 bg-white rounded-tl-3xl rounded-br-3xl">
 						<div class="text-6xl font-bold font-arvo">BICYCLE TOURS</div>
 						<div class="mt-6">
@@ -289,6 +377,8 @@
 
 			</div>
 		</div>
+
+
 
 		<!-- experiential tours -->
 		<div class="py-12 bg-gradient-to-b from-teal-800 via-cyan-600 to-gray-900">
@@ -438,6 +528,74 @@
 				</div>
 			</div>
 		</div>
+
+		<!-- FAQ -->
+		<div class="max-w-[65rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+			<!-- Grid -->
+			<div class="grid gap-10 md:grid-cols-5">
+				<div class="md:col-span-2">
+					<div class="max-w-xs">
+						<h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Frequently<br>asked questions
+						</h2>
+						<p class="hidden mt-1 text-gray-600 md:block dark:text-gray-400">Answers to the most frequently asked
+							questions.</p>
+					</div>
+				</div>
+				<!-- End Col -->
+
+				<div class="md:col-span-3">
+					<!-- Accordion -->
+					<div class="space-y-3 divide-y divide-gray-200">
+						<div class="py-3">
+							<h3 class="pb-3 font-semibold text-left text-gray-800 md:text-lg hover:text-gray-500">What kind of tours
+								does your travel website offer in Puri?</h3>
+							<p class="text-gray-600 dark:text-gray-400">
+								We offer a range of personalised temple visits, bicycle tours, workshops, and experiential tours in
+								Puri. Our tours are designed to give visitors a unique and immersive experience, and are tailored to the
+								individual interests and preferences of our guests.
+							</p>
+						</div>
+
+						<div class="py-3" id="hs-basic-with-title-and-arrow-stretched-heading-one">
+							<h3 class="pb-3 font-semibold text-left text-gray-800 md:text-lg hover:text-gray-500">What is the
+								principle of responsible tourism that your company follows?</h3>
+							<p class="text-gray-600 dark:text-gray-400">
+								We believe in the principle of responsible tourism, which means that we strive to minimize our
+								environmental impact and support local communities while providing high-quality travel experiences. This
+								means that we use eco-friendly modes of transportation and we work with local guides and businesses to
+								support the local economy.
+							</p>
+						</div>
+
+						<div class="py-3" id="hs-basic-with-title-and-arrow-stretched-heading-one">
+							<h3 class="pb-3 font-semibold text-left text-gray-800 md:text-lg hover:text-gray-500">Can you accommodate
+								travelers with special needs or disabilities?</h3>
+							<p class="text-gray-600 dark:text-gray-400">
+								Yes, we are committed to providing accessible and inclusive travel experiences for all of our guests. If
+								you have any special needs or disabilities, please let us know in advance so that we can make the
+								necessary arrangements to accommodate you on our tours.
+							</p>
+						</div>
+
+						<div class="py-3" id="hs-basic-with-title-and-arrow-stretched-heading-one">
+							<h3 class="pb-3 font-semibold text-left text-gray-800 md:text-lg hover:text-gray-500">What safety measures
+								are in place to protect travelers on your tours?</h3>
+							<p class="text-gray-600 dark:text-gray-400">
+								The safety and well-being of our guests is our top priority. All of our tours are carefully planned and
+								conducted by experienced and knowledgeable local guides, and we follow all local health and safety
+								guidelines to ensure a safe and enjoyable experience for our guests.
+							</p>
+						</div>
+
+
+					</div>
+					<!-- End Accordion -->
+				</div>
+				<!-- End Col -->
+			</div>
+			<!-- End Grid -->
+		</div>
+		<!-- End FAQ -->
 
 		<footer class="px-4 py-12 mx-auto text-white bg-gray-800 ">
 			<div class="flex items-center justify-between max-w-3xl mx-auto">
