@@ -82,12 +82,6 @@
 
 		</div>
 
-		<!-- hero -->
-		<section class="px-6 overflow-hidden">
-			<div class="px-4 mx-auto bg-white max-w-7xl sm:px-6 md:px-12 lg:px-24">
-			</div>
-		</section>
-		
 		<!-- services -->
 		<div class="relative max-w-5xl p-6 pb-12 mx-auto">
 			<div class="absolute -right-[300px] scale-50 bottom-0 z-90 opacity-60">
@@ -105,17 +99,28 @@
 
 			</div>
 			<div class="z-50 flex flex-col items-center justify-center gap-8 my-12 sm:flex-row">
-				<img src="/pata_painting1.jpg" alt=""
-					class="object-cover w-64 h-64 rounded-full shrink-0 ring-4 ring-offset-4 ring-sky-500">
-				<div class="max-w-md">
-					<h3 class="inline-block text-xl font-semibold tracking-wide text-gray-500 border-b-2 border-sky-500">OUR
+
+				<!-- <div class="text-center">
+					<p class="mb-3 text-xs font-semibold tracking-wide text-gray-500 uppercase dark:text-gray-200">
+						Small business solutions
+					</p>
+					<h1 class="text-3xl font-bold text-gray-800 sm:text-5xl lg:text-6xl lg:leading-tight dark:text-gray-200">
+						Turn online shoppers into <span class="text-blue-500">lifetime customers</span>
+					</h1>
+				</div> -->
+
+
+				<!-- <img src="/pata_painting1.jpg" alt=""
+					class="object-cover w-64 h-64 rounded-full shrink-0 ring-4 ring-offset-4 ring-sky-500"> -->
+				<div class="text-center">
+					<h3 class="inline-block text-2xl font-semibold tracking-wide text-gray-500 border-b-2 border-sky-500">OUR
 						SERVICES</h3>
 
 					<h2 class="mt-3 text-4xl font-bold text-gray-500">Connecting You with <div
 							class="text-transparent bg-clip-text bg-gradient-to-br from-cyan-400 to-sky-600">Local Experts</div>
 					</h2>
 
-					<p class="mt-3">
+					<p class="max-w-lg mt-3">
 						Connect with local experts who
 						can provide you with authentic and unique experiences that align with the principles of <span
 							class="font-bold text-transparent bg-clip-text bg-gradient-to-tr from-green-500 to-teal-600">responsible
@@ -135,28 +140,24 @@
 			</svg> -->
 
 
+			<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2">
 
-
-
-
-			<div class="grid grid-cols-1 gap-2 sm:grid-cols-2 md:grid-cols-4">
-
-				<BaseCardImg title="Temple Visit"
+				<ServiceCard title="Temple Visit"
 					description="Experience the serenity and beauty of the temple with a personalized visit."
 					image="https://images.odishatv.in/uploadimage/library/16_9/16_9_0/IMAGE_1645674093.jpg"
-					class="h-64 overflow-hidden sm:max-w-96 shrink-0 snap-start " />
-				<BaseCardImg title="Bicycle Tours"
+					class="overflow-hidden sm:max-w-96 shrink-0" />
+				<ServiceCard title="Bicycle Tours"
 					description="Discover the beauty of the city on two wheels with our guided bicycle tours."
 					image="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_600,q_auto,w_auto/v1/filestore/30plok07lnbcgw3nys8ut201e3p3_1584967999_Blive-009.jpg"
-					class="h-64 overflow-hidden sm:max-w-96 shrink-0 snap-start " />
-				<BaseCardImg title="Excursions"
+					class="overflow-hidden sm:max-w-96 shrink-0" />
+				<ServiceCard title="Excursions"
 					description="Explore the breathtaking landscapes of Puri on one of our excursions."
 					image="https://www.drishtiias.com/images/uploads/1640860172_Sun_temple_drishti_ias_english.png"
-					class="h-64 overflow-hidden sm:max-w-96 shrink-0 snap-start " />
-				<BaseCardImg title="Workshops"
+					class="overflow-hidden sm:max-w-96 shrink-0" />
+				<ServiceCard title="Workshops"
 					description="Learn from experts in a hands-on, interactive setting with our workshops."
 					image="https://www.nativeplanet.com/img/2015/04/22-1429700807-paintingsonbetelnutbytheartistsofraghurajpur.jpg"
-					class="h-64 overflow-hidden sm:max-w-96 shrink-0 snap-start" />
+					class="overflow-hidden sm:max-w-96 shrink-0" />
 			</div>
 
 			<div class="flex max-w-5xl mx-auto mt-2 space-x-2 overflow-scroll snap-mandatory snap-x scroll-container">
@@ -165,71 +166,9 @@
 			</div>
 		</div>
 
-  <form class="w-full max-w-lg">
-    <h2 class="mb-4 text-2xl font-bold">Book Your Bicycle Tour</h2>
 
-    <div class="mb-4">
-      <label class="block mb-2 text-sm font-bold text-gray-700" for="name">
-        Name
-      </label>
-      <input
-        class="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
-        id="name"
-        type="text"
-        placeholder="Enter your name"
-        v-model="name"
-      />
-    </div>
 
-    <div class="mb-4">
-      <label class="block mb-2 text-sm font-bold text-gray-700" for="email">
-        Email
-      </label>
-      <input
-        class="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
-        id="email"
-        type="email"
-        placeholder="Enter your email"
-        v-model="email"
-      />
-    </div>
 
-    <div class="mb-4">
-      <label class="block mb-2 text-sm font-bold text-gray-700" for="phone">
-        Phone
-      </label>
-      <input
-        class="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
-        id="phone"
-        type="tel"
-        placeholder="Enter your phone number"
-        v-model="phone"
-      />
-    </div>
-
-    <div class="mb-4">
-      <label class="block mb-2 text-sm font-bold text-gray-700" for="date">
-        Date and Time
-      </label>
-      <input
-        class="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
-        id="date"
-        type="datetime-local"
-        placeholder="Enter the date and time of the tour"
-        v-model="date"
-      />
-    </div>
-
-    <div class="mb-4">
-      <label class="block mb-2 text-sm font-bold text-gray-700" for="tour-name">
-        Tour Name
-      </label>
-      <input
-        class="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow">
-		</div>
-	</form>
-
-		
 		<!-- testimonials -->
 		<section class="relative bg-white dark:bg-gray-900">
 			<div class="container px-6 py-10 mx-auto">
@@ -597,6 +536,72 @@
 		</div>
 		<!-- End FAQ -->
 
+		<div class="w-full bg-indigo-600">
+			<div
+				class="gfe-absolute-svgs__container__icon gfe-absolute-svgs__container__icon gfe-mod-hidden-sm gfe-mod-hidden-md"
+				style="width: 16%;left: 54px;bottom: -47px;">
+				<picture class="gfe-responsive-image">
+					<img loading="lazy" class="gfe-responsive-image__img gfe-responsive-image__img--no-border"
+						src="https://edu.google.com/assets/icons/pages/main/interactive-demos/loupe.svg" alt="">
+				</picture>
+			</div>
+			<div class="w-full" style="width: 12%;right: 55px;bottom: -22px;">
+				<picture class="gfe-responsive-image">
+					<img loading="lazy" class="gfe-responsive-image__img gfe-responsive-image__img--no-border"
+						src="https://edu.google.com/assets/icons/pages/main/interactive-demos/window.svg" alt="">
+				</picture>
+			</div>
+			<div
+				class="gfe-absolute-svgs__container__icon gfe-absolute-svgs__container__icon gfe-mod-hidden-sm gfe-mod-hidden-md"
+				style="width: 10%;transform:translateY(-100%) ;right: 175px;top: 0px;">
+				<picture class="gfe-responsive-image">
+					<img loading="lazy" class="gfe-responsive-image__img gfe-responsive-image__img--no-border"
+						src="https://edu.google.com/assets/icons/pages/main/interactive-demos/world.svg" alt="">
+				</picture>
+			</div>
+			<div class="gfe-absolute-svgs__container__icon gfe-absolute-svgs__container__icon--mobile gfe-mod-hidden-lg-up"
+				style="width: 120px;transform:translateY(-100%) ;left: 60px;top: 0px;">
+				<picture class="gfe-responsive-image">
+					<img loading="lazy" class="gfe-responsive-image__img gfe-responsive-image__img--no-border"
+						src="https://edu.google.com/assets/icons/pages/main/interactive-demos/world.svg" alt="">
+				</picture>
+			</div>
+			<div class="gfe-grid">
+				<div
+					class="gfe-grid__col--span-12 gfe-grid__col--span-2-offset-lg gfe-absolute-svgs__container__first-column gfe-grid__col--span-8-lg">
+					<div class="gfe-copy-intro gfe-mod-text-center ">
+						<div class="gfe-head-intro ">
+							<h3 class="gfe-headline gfe-headline--headline-3 gfe-head-intro__headline ">Bring Google Workspace for
+								Education to your institution</h3>
+						</div>
+						<p class="gfe-body gfe-mod-spacer-2-top">Connect and collaborate across your school community. Choose the
+							edition that best suits your learning&nbsp;environment.</p>
+						<ul class="gfe-rows gfe-no-bullet gfe-rows--buttons gfe-rows--mobile-stacked gfe-mod-spacer-2-top">
+							<li class="gfe-rows__item gfe-mod-valign-middle gfe-rows__item--margin-center-2 gfe-mod-spacer-2-top"><a
+									class="gfe-button gfe-button--medium-emphasis gfe-button--middle-align" href="/contact/"
+									data-g-type="internal" data-g-action="get started cta click" data-g-category="component"
+									data-g-section="interactive-demos-interactive-demo-get-starteds"
+									data-g-label="Bring Google Workspace for Education to your institution - Contact sales - /contact/"
+									tabindex="0">
+									<span class="gfe-button__label">Contact sales</span>
+								</a></li>
+							<li
+								class="gfe-rows__item gfe-mod-valign-middle gfe-rows__item--margin-center-2 gfe-mod-spacer-2-top gfe-mod-spacer-2-top-sm-only">
+								<a class="gfe-button gfe-button--medium-emphasis gfe-button--reversed gfe-button--middle-align"
+									href="/workspace-for-education/editions/compare-editions/" data-g-type="internal"
+									data-g-action="get started cta click" data-g-category="component"
+									data-g-section="interactive-demos-interactive-demo-get-starteds"
+									data-g-label="Bring Google Workspace for Education to your institution - Compare editions - /workspace-for-education/editions/compare-editions/"
+									tabindex="0">
+									<span class="gfe-button__label">Compare editions</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<footer class="px-4 py-12 mx-auto text-white bg-gray-800 ">
 			<div class="flex items-center justify-between max-w-3xl mx-auto">
 				<p class="text-sm">
@@ -612,6 +617,68 @@
 				</div>
 			</div>
 		</footer>
+
+		<AppModal :isActive="isModalActive">
+			<div class="w-full p-6 bg-white rounded-lg shadow-lg">
+				<h2 class="mb-2 text-2xl font-bold">Bicycle Tour</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi rerum iure delectus labore facere neque vel
+					perspiciatis nulla maiores iusto.</p>
+				<form class="mt-3">
+
+					<div class="flex gap-6">
+						<div class="w-1/2 mb-4">
+							<label class="block mb-2 text-sm font-bold text-gray-700" for="date">
+								Choose date
+							</label>
+							<input
+								class="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+								id="date" type="date" placeholder="Choose the date of the tour" v-model="date" />
+						</div>
+
+						<div class="w-1/2 mb-4">
+							<label class="block mb-2 text-sm font-bold text-gray-700" for="date">
+								Choose a time slot
+							</label>
+							<select
+								class="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow focus:outline-none focus:shadow-outline">
+								<option value="7:30AM">7:30AM</option>
+								<option value="11:00AM">11:00AM</option>
+								<option value="4:00PM">4:00PM</option>
+								<option value="7:00PM">7:00PM</option>
+
+							</select>
+						</div>
+					</div>
+
+					<div class="mb-4">
+						<label class="block mb-2 text-sm font-bold text-gray-700" for="name">
+							Name
+						</label>
+						<input
+							class="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+							id="name" type="text" placeholder="Enter your name" v-model="name" />
+					</div>
+
+					<div class="mb-4">
+						<label class="block mb-2 text-sm font-bold text-gray-700" for="email">
+							Email
+						</label>
+						<input
+							class="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+							id="email" type="email" placeholder="Enter your email" v-model="email" />
+					</div>
+
+					<div class="mb-4">
+						<label class="block mb-2 text-sm font-bold text-gray-700" for="phone">
+							Phone
+						</label>
+						<input
+							class="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+							id="phone" type="tel" placeholder="Enter your phone number" v-model="phone" />
+					</div>
+				</form>
+			</div>
+		</AppModal>
 	</div>
 </template>
 
@@ -619,4 +686,6 @@
 definePageMeta({
 	layout: "off",
 });
+
+const isModalActive = ref(false)
 </script>
