@@ -3,6 +3,8 @@
 		<!-- <AppHero /> -->
 		<div class="flex flex-wrap items-center max-w-5xl px-12 pt-6 mx-auto">
 
+			
+			<!-- <ImgInteractive /> -->
 			<div class="w-full lg:max-w-lg md:w-1/2 rounded-xl">
 				<div>
 					<div class="relative w-full max-w-lg mx-auto">
@@ -535,72 +537,6 @@
 			<!-- End Grid -->
 		</div>
 		<!-- End FAQ -->
-
-		<div class="w-full bg-indigo-600">
-			<div
-				class="gfe-absolute-svgs__container__icon gfe-absolute-svgs__container__icon gfe-mod-hidden-sm gfe-mod-hidden-md"
-				style="width: 16%;left: 54px;bottom: -47px;">
-				<picture class="gfe-responsive-image">
-					<img loading="lazy" class="gfe-responsive-image__img gfe-responsive-image__img--no-border"
-						src="https://edu.google.com/assets/icons/pages/main/interactive-demos/loupe.svg" alt="">
-				</picture>
-			</div>
-			<div class="w-full" style="width: 12%;right: 55px;bottom: -22px;">
-				<picture class="gfe-responsive-image">
-					<img loading="lazy" class="gfe-responsive-image__img gfe-responsive-image__img--no-border"
-						src="https://edu.google.com/assets/icons/pages/main/interactive-demos/window.svg" alt="">
-				</picture>
-			</div>
-			<div
-				class="gfe-absolute-svgs__container__icon gfe-absolute-svgs__container__icon gfe-mod-hidden-sm gfe-mod-hidden-md"
-				style="width: 10%;transform:translateY(-100%) ;right: 175px;top: 0px;">
-				<picture class="gfe-responsive-image">
-					<img loading="lazy" class="gfe-responsive-image__img gfe-responsive-image__img--no-border"
-						src="https://edu.google.com/assets/icons/pages/main/interactive-demos/world.svg" alt="">
-				</picture>
-			</div>
-			<div class="gfe-absolute-svgs__container__icon gfe-absolute-svgs__container__icon--mobile gfe-mod-hidden-lg-up"
-				style="width: 120px;transform:translateY(-100%) ;left: 60px;top: 0px;">
-				<picture class="gfe-responsive-image">
-					<img loading="lazy" class="gfe-responsive-image__img gfe-responsive-image__img--no-border"
-						src="https://edu.google.com/assets/icons/pages/main/interactive-demos/world.svg" alt="">
-				</picture>
-			</div>
-			<div class="gfe-grid">
-				<div
-					class="gfe-grid__col--span-12 gfe-grid__col--span-2-offset-lg gfe-absolute-svgs__container__first-column gfe-grid__col--span-8-lg">
-					<div class="gfe-copy-intro gfe-mod-text-center ">
-						<div class="gfe-head-intro ">
-							<h3 class="gfe-headline gfe-headline--headline-3 gfe-head-intro__headline ">Bring Google Workspace for
-								Education to your institution</h3>
-						</div>
-						<p class="gfe-body gfe-mod-spacer-2-top">Connect and collaborate across your school community. Choose the
-							edition that best suits your learning&nbsp;environment.</p>
-						<ul class="gfe-rows gfe-no-bullet gfe-rows--buttons gfe-rows--mobile-stacked gfe-mod-spacer-2-top">
-							<li class="gfe-rows__item gfe-mod-valign-middle gfe-rows__item--margin-center-2 gfe-mod-spacer-2-top"><a
-									class="gfe-button gfe-button--medium-emphasis gfe-button--middle-align" href="/contact/"
-									data-g-type="internal" data-g-action="get started cta click" data-g-category="component"
-									data-g-section="interactive-demos-interactive-demo-get-starteds"
-									data-g-label="Bring Google Workspace for Education to your institution - Contact sales - /contact/"
-									tabindex="0">
-									<span class="gfe-button__label">Contact sales</span>
-								</a></li>
-							<li
-								class="gfe-rows__item gfe-mod-valign-middle gfe-rows__item--margin-center-2 gfe-mod-spacer-2-top gfe-mod-spacer-2-top-sm-only">
-								<a class="gfe-button gfe-button--medium-emphasis gfe-button--reversed gfe-button--middle-align"
-									href="/workspace-for-education/editions/compare-editions/" data-g-type="internal"
-									data-g-action="get started cta click" data-g-category="component"
-									data-g-section="interactive-demos-interactive-demo-get-starteds"
-									data-g-label="Bring Google Workspace for Education to your institution - Compare editions - /workspace-for-education/editions/compare-editions/"
-									tabindex="0">
-									<span class="gfe-button__label">Compare editions</span>
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
 
 		<footer class="px-4 py-12 mx-auto text-white bg-gray-800 ">
 			<div class="flex items-center justify-between max-w-3xl mx-auto">
