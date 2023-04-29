@@ -10,10 +10,16 @@
   "devDependencies": {
     "@iconify-prerendered/vue-bx": "^0.11.1656181453",
     "@nuxtjs/tailwindcss": "^5.3.2",
-    "autoprefixer": "^10.4.13",
     "firebase": "^9.9.4",
-    "nuxt": "3.0.0-rc.9",
-    "postcss": "^8.4.19",
+    "nuxt": "^3.3.3",
     "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "@iconify-prerendered/vue-bi": "^0.22.1679898430",
+    "@sendgrid/mail": "^7.7.0",
+    "consola": "3.0.1"
+  },
+  "peerDependencies": {
+    "consola": "3.0.1"
   }
 }

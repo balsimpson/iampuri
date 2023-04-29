@@ -1,6 +1,6 @@
 <template>
   <div v-if="isActive"
-    class="fixed inset-0 z-10 flex items-center justify-center w-screen h-screen bg-white z-80 sm:bg-stone-700/90" id="modal">
+    class="fixed inset-0 z-10 flex sm:items-center justify-center w-screen h-screen bg-white z-80 sm:bg-stone-700/90" id="modal">
     <div role="alert" class="container relative mx-auto sm:max-w-2xl sm:w-11/12">
       <slot />
       <!-- close button -->

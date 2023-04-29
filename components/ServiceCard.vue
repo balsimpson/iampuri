@@ -14,6 +14,7 @@
         {{description}}
       </p>
       <button
+        @click.prevent="emit('clicked')"
         class="px-4 inline-block sm:mx-2 py-2.5 mt-3  text-sm font-bold tracking-wide text-gray-800 capitalize transition-colors duration-300 transform bg-amber-500 rounded-md hover:bg-amber-600 focus:outline-none focus:ring focus:ring-amber-300 focus:ring-opacity-40">
         Book Now
       </button>
@@ -23,6 +24,7 @@
 </template>
 
 <script setup>
+const emit = defineEmits(['clicked'])
 const props = defineProps(['image', 'title', 'description'])
 
 const clickHandler = (e) => {

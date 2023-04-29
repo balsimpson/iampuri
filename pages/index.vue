@@ -2,8 +2,6 @@
 	<div>
 		<!-- <AppHero /> -->
 		<div class="flex flex-wrap items-center max-w-5xl px-12 pt-6 mx-auto">
-
-			
 			<!-- <ImgInteractive /> -->
 			<div class="w-full lg:max-w-lg md:w-1/2 rounded-xl">
 				<div>
@@ -19,59 +17,98 @@
 							class="absolute w-full h-full rounded-full -left-10 -bottom-6 bg-sky-700 mix-blend-multiply filter opacity-70 animate-morph">
 						</div> -->
 
-						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" id="blobSvg"
-							style="opacity: 1;" class="absolute -bottom-16 -right-4">
+						<svg
+							version="1.1"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 500 500"
+							width="100%"
+							id="blobSvg"
+							style="opacity: 1"
+							class="absolute -bottom-16 -right-4"
+						>
 							<defs>
 								<linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-									<stop offset="0%" style="stop-color: rgb(32, 166, 223);"></stop>
-									<stop offset="100%" style="stop-color: rgb(48, 249, 253);"></stop>
+									<stop
+										offset="0%"
+										style="stop-color: rgb(32, 166, 223)"
+									></stop>
+									<stop
+										offset="100%"
+										style="stop-color: rgb(48, 249, 253)"
+									></stop>
 								</linearGradient>
 							</defs>
-							<path id="blob" fill="url(#gradient)" style="opacity: 0.64;">
-								<animate attributeName="d" dur="13.9s" repeatCount="indefinite"
-									values="M395.5,320Q390,390,320,400Q250,410,172,408Q94,406,59,328Q24,250,70.5,183.5Q117,117,183.5,108Q250,99,335,89.5Q420,80,410.5,165Q401,250,395.5,320Z;M409.06419,322.5266Q395.0532,395.0532,322.5266,445.11739Q250,495.18159,163.51944,459.07135Q77.03888,422.96112,82.39949,336.48056Q87.7601,250,115.64271,196.76266Q143.52532,143.52532,196.76266,76.83657Q250,10.14783,323.24578,56.82813Q396.49156,103.50844,409.78338,176.75422Q423.07519,250,409.06419,322.5266Z;M423.42552,332.41134Q414.82268,414.82268,332.41134,424.30554Q250,433.78841,170.96572,420.92848Q91.93144,408.06856,46.07152,329.03428Q0.21159,250,66.88003,191.77423Q133.54846,133.54846,191.77423,102.82861Q250,72.10876,305.00592,106.04846Q360.01185,139.98815,396.0201,194.99408Q432.02836,250,423.42552,332.41134Z;M408.24461,332.63257Q415.26513,415.26513,332.63257,434.71568Q250,454.16622,179.33614,422.74697Q108.67228,391.32772,65.87585,320.66386Q23.07942,250,63.27221,176.73251Q103.46501,103.46501,176.73251,63.02288Q250,22.58075,311.86507,74.4253Q373.73015,126.26985,387.47712,188.13493Q401.22409,250,408.24461,332.63257Z;M385.47259,309.13613Q368.27225,368.27225,309.13613,425.14983Q250,482.02741,183.02911,432.9846Q116.05821,383.94179,100.85787,316.97089Q85.65753,250,111.11302,193.28426Q136.56852,136.56852,193.28426,70.4846Q250,4.40068,303.89298,73.30736Q357.78596,142.21404,380.22944,196.10702Q402.67293,250,385.47259,309.13613Z;M395.5,320Q390,390,320,400Q250,410,172,408Q94,406,59,328Q24,250,70.5,183.5Q117,117,183.5,108Q250,99,335,89.5Q420,80,410.5,165Q401,250,395.5,320Z">
-								</animate>
+							<path id="blob" fill="url(#gradient)" style="opacity: 0.64">
+								<animate
+									attributeName="d"
+									dur="13.9s"
+									repeatCount="indefinite"
+									values="M395.5,320Q390,390,320,400Q250,410,172,408Q94,406,59,328Q24,250,70.5,183.5Q117,117,183.5,108Q250,99,335,89.5Q420,80,410.5,165Q401,250,395.5,320Z;M409.06419,322.5266Q395.0532,395.0532,322.5266,445.11739Q250,495.18159,163.51944,459.07135Q77.03888,422.96112,82.39949,336.48056Q87.7601,250,115.64271,196.76266Q143.52532,143.52532,196.76266,76.83657Q250,10.14783,323.24578,56.82813Q396.49156,103.50844,409.78338,176.75422Q423.07519,250,409.06419,322.5266Z;M423.42552,332.41134Q414.82268,414.82268,332.41134,424.30554Q250,433.78841,170.96572,420.92848Q91.93144,408.06856,46.07152,329.03428Q0.21159,250,66.88003,191.77423Q133.54846,133.54846,191.77423,102.82861Q250,72.10876,305.00592,106.04846Q360.01185,139.98815,396.0201,194.99408Q432.02836,250,423.42552,332.41134Z;M408.24461,332.63257Q415.26513,415.26513,332.63257,434.71568Q250,454.16622,179.33614,422.74697Q108.67228,391.32772,65.87585,320.66386Q23.07942,250,63.27221,176.73251Q103.46501,103.46501,176.73251,63.02288Q250,22.58075,311.86507,74.4253Q373.73015,126.26985,387.47712,188.13493Q401.22409,250,408.24461,332.63257Z;M385.47259,309.13613Q368.27225,368.27225,309.13613,425.14983Q250,482.02741,183.02911,432.9846Q116.05821,383.94179,100.85787,316.97089Q85.65753,250,111.11302,193.28426Q136.56852,136.56852,193.28426,70.4846Q250,4.40068,303.89298,73.30736Q357.78596,142.21404,380.22944,196.10702Q402.67293,250,385.47259,309.13613Z;M395.5,320Q390,390,320,400Q250,410,172,408Q94,406,59,328Q24,250,70.5,183.5Q117,117,183.5,108Q250,99,335,89.5Q420,80,410.5,165Q401,250,395.5,320Z"
+								></animate>
 							</path>
-							<path id="blob" fill="url(#gradient)" style="opacity: 0.64;">
-								<animate attributeName="d" dur="13.9s" repeatCount="indefinite"
-									values="M421.63508,307.39005Q364.7801,364.7801,307.39005,427.43403Q250,490.08796,191.6822,428.36178Q133.3644,366.6356,70.9089,308.3178Q8.4534,250,54.21728,174.99058Q99.98115,99.98115,174.99058,81.49686Q250,63.01257,330.66021,75.84607Q411.32042,88.67958,444.90524,169.33979Q478.49006,250,421.63508,307.39005Z;M449.66467,329.57458Q409.14917,409.14917,329.57458,407.97733Q250,406.80549,191.3735,387.02924Q132.74701,367.25299,77.06026,308.6265Q21.3735,250,49.05191,163.36516Q76.73032,76.73032,163.36516,85.537Q250,94.34367,322.00775,100.16408Q394.01551,105.98449,442.09784,177.99225Q490.18018,250,449.66467,329.57458Z;M408.24461,332.63257Q415.26513,415.26513,332.63257,434.71568Q250,454.16622,179.33614,422.74697Q108.67228,391.32772,65.87585,320.66386Q23.07942,250,63.27221,176.73251Q103.46501,103.46501,176.73251,63.02288Q250,22.58075,311.86507,74.4253Q373.73015,126.26985,387.47712,188.13493Q401.22409,250,408.24461,332.63257Z;M423.42552,332.41134Q414.82268,414.82268,332.41134,424.30554Q250,433.78841,170.96572,420.92848Q91.93144,408.06856,46.07152,329.03428Q0.21159,250,66.88003,191.77423Q133.54846,133.54846,191.77423,102.82861Q250,72.10876,305.00592,106.04846Q360.01185,139.98815,396.0201,194.99408Q432.02836,250,423.42552,332.41134Z;M409.06419,322.5266Q395.0532,395.0532,322.5266,445.11739Q250,495.18159,163.51944,459.07135Q77.03888,422.96112,82.39949,336.48056Q87.7601,250,115.64271,196.76266Q143.52532,143.52532,196.76266,76.83657Q250,10.14783,323.24578,56.82813Q396.49156,103.50844,409.78338,176.75422Q423.07519,250,409.06419,322.5266Z;M421.63508,307.39005Q364.7801,364.7801,307.39005,427.43403Q250,490.08796,191.6822,428.36178Q133.3644,366.6356,70.9089,308.3178Q8.4534,250,54.21728,174.99058Q99.98115,99.98115,174.99058,81.49686Q250,63.01257,330.66021,75.84607Q411.32042,88.67958,444.90524,169.33979Q478.49006,250,421.63508,307.39005Z">
-								</animate>
+							<path id="blob" fill="url(#gradient)" style="opacity: 0.64">
+								<animate
+									attributeName="d"
+									dur="13.9s"
+									repeatCount="indefinite"
+									values="M421.63508,307.39005Q364.7801,364.7801,307.39005,427.43403Q250,490.08796,191.6822,428.36178Q133.3644,366.6356,70.9089,308.3178Q8.4534,250,54.21728,174.99058Q99.98115,99.98115,174.99058,81.49686Q250,63.01257,330.66021,75.84607Q411.32042,88.67958,444.90524,169.33979Q478.49006,250,421.63508,307.39005Z;M449.66467,329.57458Q409.14917,409.14917,329.57458,407.97733Q250,406.80549,191.3735,387.02924Q132.74701,367.25299,77.06026,308.6265Q21.3735,250,49.05191,163.36516Q76.73032,76.73032,163.36516,85.537Q250,94.34367,322.00775,100.16408Q394.01551,105.98449,442.09784,177.99225Q490.18018,250,449.66467,329.57458Z;M408.24461,332.63257Q415.26513,415.26513,332.63257,434.71568Q250,454.16622,179.33614,422.74697Q108.67228,391.32772,65.87585,320.66386Q23.07942,250,63.27221,176.73251Q103.46501,103.46501,176.73251,63.02288Q250,22.58075,311.86507,74.4253Q373.73015,126.26985,387.47712,188.13493Q401.22409,250,408.24461,332.63257Z;M423.42552,332.41134Q414.82268,414.82268,332.41134,424.30554Q250,433.78841,170.96572,420.92848Q91.93144,408.06856,46.07152,329.03428Q0.21159,250,66.88003,191.77423Q133.54846,133.54846,191.77423,102.82861Q250,72.10876,305.00592,106.04846Q360.01185,139.98815,396.0201,194.99408Q432.02836,250,423.42552,332.41134Z;M409.06419,322.5266Q395.0532,395.0532,322.5266,445.11739Q250,495.18159,163.51944,459.07135Q77.03888,422.96112,82.39949,336.48056Q87.7601,250,115.64271,196.76266Q143.52532,143.52532,196.76266,76.83657Q250,10.14783,323.24578,56.82813Q396.49156,103.50844,409.78338,176.75422Q423.07519,250,409.06419,322.5266Z;M421.63508,307.39005Q364.7801,364.7801,307.39005,427.43403Q250,490.08796,191.6822,428.36178Q133.3644,366.6356,70.9089,308.3178Q8.4534,250,54.21728,174.99058Q99.98115,99.98115,174.99058,81.49686Q250,63.01257,330.66021,75.84607Q411.32042,88.67958,444.90524,169.33979Q478.49006,250,421.63508,307.39005Z"
+								></animate>
 							</path>
-							<path id="blob" fill="url(#gradient)" style="opacity: 0.64;">
-								<animate attributeName="d" dur="13.9s" repeatCount="indefinite"
-									values="M446.86448,329.36764Q408.73529,408.73529,329.36764,419.76576Q250,430.79624,166.60504,423.79308Q83.21008,416.78992,69.36975,333.39496Q55.52942,250,96.13341,193.3687Q136.7374,136.7374,193.3687,119.10083Q250,101.46426,313.50105,112.23108Q377.00211,122.99789,430.99789,186.49895Q484.99368,250,446.86448,329.36764Z;M395.5,320Q390,390,320,400Q250,410,172,408Q94,406,59,328Q24,250,70.5,183.5Q117,117,183.5,108Q250,99,335,89.5Q420,80,410.5,165Q401,250,395.5,320Z;M449.66467,329.57458Q409.14917,409.14917,329.57458,407.97733Q250,406.80549,191.3735,387.02924Q132.74701,367.25299,77.06026,308.6265Q21.3735,250,49.05191,163.36516Q76.73032,76.73032,163.36516,85.537Q250,94.34367,322.00775,100.16408Q394.01551,105.98449,442.09784,177.99225Q490.18018,250,449.66467,329.57458Z;M421.63508,307.39005Q364.7801,364.7801,307.39005,427.43403Q250,490.08796,191.6822,428.36178Q133.3644,366.6356,70.9089,308.3178Q8.4534,250,54.21728,174.99058Q99.98115,99.98115,174.99058,81.49686Q250,63.01257,330.66021,75.84607Q411.32042,88.67958,444.90524,169.33979Q478.49006,250,421.63508,307.39005Z;M408.24461,332.63257Q415.26513,415.26513,332.63257,434.71568Q250,454.16622,179.33614,422.74697Q108.67228,391.32772,65.87585,320.66386Q23.07942,250,63.27221,176.73251Q103.46501,103.46501,176.73251,63.02288Q250,22.58075,311.86507,74.4253Q373.73015,126.26985,387.47712,188.13493Q401.22409,250,408.24461,332.63257Z;M446.86448,329.36764Q408.73529,408.73529,329.36764,419.76576Q250,430.79624,166.60504,423.79308Q83.21008,416.78992,69.36975,333.39496Q55.52942,250,96.13341,193.3687Q136.7374,136.7374,193.3687,119.10083Q250,101.46426,313.50105,112.23108Q377.00211,122.99789,430.99789,186.49895Q484.99368,250,446.86448,329.36764Z">
-								</animate>
+							<path id="blob" fill="url(#gradient)" style="opacity: 0.64">
+								<animate
+									attributeName="d"
+									dur="13.9s"
+									repeatCount="indefinite"
+									values="M446.86448,329.36764Q408.73529,408.73529,329.36764,419.76576Q250,430.79624,166.60504,423.79308Q83.21008,416.78992,69.36975,333.39496Q55.52942,250,96.13341,193.3687Q136.7374,136.7374,193.3687,119.10083Q250,101.46426,313.50105,112.23108Q377.00211,122.99789,430.99789,186.49895Q484.99368,250,446.86448,329.36764Z;M395.5,320Q390,390,320,400Q250,410,172,408Q94,406,59,328Q24,250,70.5,183.5Q117,117,183.5,108Q250,99,335,89.5Q420,80,410.5,165Q401,250,395.5,320Z;M449.66467,329.57458Q409.14917,409.14917,329.57458,407.97733Q250,406.80549,191.3735,387.02924Q132.74701,367.25299,77.06026,308.6265Q21.3735,250,49.05191,163.36516Q76.73032,76.73032,163.36516,85.537Q250,94.34367,322.00775,100.16408Q394.01551,105.98449,442.09784,177.99225Q490.18018,250,449.66467,329.57458Z;M421.63508,307.39005Q364.7801,364.7801,307.39005,427.43403Q250,490.08796,191.6822,428.36178Q133.3644,366.6356,70.9089,308.3178Q8.4534,250,54.21728,174.99058Q99.98115,99.98115,174.99058,81.49686Q250,63.01257,330.66021,75.84607Q411.32042,88.67958,444.90524,169.33979Q478.49006,250,421.63508,307.39005Z;M408.24461,332.63257Q415.26513,415.26513,332.63257,434.71568Q250,454.16622,179.33614,422.74697Q108.67228,391.32772,65.87585,320.66386Q23.07942,250,63.27221,176.73251Q103.46501,103.46501,176.73251,63.02288Q250,22.58075,311.86507,74.4253Q373.73015,126.26985,387.47712,188.13493Q401.22409,250,408.24461,332.63257Z;M446.86448,329.36764Q408.73529,408.73529,329.36764,419.76576Q250,430.79624,166.60504,423.79308Q83.21008,416.78992,69.36975,333.39496Q55.52942,250,96.13341,193.3687Q136.7374,136.7374,193.3687,119.10083Q250,101.46426,313.50105,112.23108Q377.00211,122.99789,430.99789,186.49895Q484.99368,250,446.86448,329.36764Z"
+								></animate>
 							</path>
-							<path id="blob" fill="url(#gradient)" style="opacity: 0.64;">
-								<animate attributeName="d" dur="13.9s" repeatCount="indefinite"
-									values="M408.24461,332.63257Q415.26513,415.26513,332.63257,434.71568Q250,454.16622,179.33614,422.74697Q108.67228,391.32772,65.87585,320.66386Q23.07942,250,63.27221,176.73251Q103.46501,103.46501,176.73251,63.02288Q250,22.58075,311.86507,74.4253Q373.73015,126.26985,387.47712,188.13493Q401.22409,250,408.24461,332.63257Z;M421.63508,307.39005Q364.7801,364.7801,307.39005,427.43403Q250,490.08796,191.6822,428.36178Q133.3644,366.6356,70.9089,308.3178Q8.4534,250,54.21728,174.99058Q99.98115,99.98115,174.99058,81.49686Q250,63.01257,330.66021,75.84607Q411.32042,88.67958,444.90524,169.33979Q478.49006,250,421.63508,307.39005Z;M395.5,320Q390,390,320,400Q250,410,172,408Q94,406,59,328Q24,250,70.5,183.5Q117,117,183.5,108Q250,99,335,89.5Q420,80,410.5,165Q401,250,395.5,320Z;M449.66467,329.57458Q409.14917,409.14917,329.57458,407.97733Q250,406.80549,191.3735,387.02924Q132.74701,367.25299,77.06026,308.6265Q21.3735,250,49.05191,163.36516Q76.73032,76.73032,163.36516,85.537Q250,94.34367,322.00775,100.16408Q394.01551,105.98449,442.09784,177.99225Q490.18018,250,449.66467,329.57458Z;M423.42552,332.41134Q414.82268,414.82268,332.41134,424.30554Q250,433.78841,170.96572,420.92848Q91.93144,408.06856,46.07152,329.03428Q0.21159,250,66.88003,191.77423Q133.54846,133.54846,191.77423,102.82861Q250,72.10876,305.00592,106.04846Q360.01185,139.98815,396.0201,194.99408Q432.02836,250,423.42552,332.41134Z;M408.24461,332.63257Q415.26513,415.26513,332.63257,434.71568Q250,454.16622,179.33614,422.74697Q108.67228,391.32772,65.87585,320.66386Q23.07942,250,63.27221,176.73251Q103.46501,103.46501,176.73251,63.02288Q250,22.58075,311.86507,74.4253Q373.73015,126.26985,387.47712,188.13493Q401.22409,250,408.24461,332.63257Z">
-								</animate>
+							<path id="blob" fill="url(#gradient)" style="opacity: 0.64">
+								<animate
+									attributeName="d"
+									dur="13.9s"
+									repeatCount="indefinite"
+									values="M408.24461,332.63257Q415.26513,415.26513,332.63257,434.71568Q250,454.16622,179.33614,422.74697Q108.67228,391.32772,65.87585,320.66386Q23.07942,250,63.27221,176.73251Q103.46501,103.46501,176.73251,63.02288Q250,22.58075,311.86507,74.4253Q373.73015,126.26985,387.47712,188.13493Q401.22409,250,408.24461,332.63257Z;M421.63508,307.39005Q364.7801,364.7801,307.39005,427.43403Q250,490.08796,191.6822,428.36178Q133.3644,366.6356,70.9089,308.3178Q8.4534,250,54.21728,174.99058Q99.98115,99.98115,174.99058,81.49686Q250,63.01257,330.66021,75.84607Q411.32042,88.67958,444.90524,169.33979Q478.49006,250,421.63508,307.39005Z;M395.5,320Q390,390,320,400Q250,410,172,408Q94,406,59,328Q24,250,70.5,183.5Q117,117,183.5,108Q250,99,335,89.5Q420,80,410.5,165Q401,250,395.5,320Z;M449.66467,329.57458Q409.14917,409.14917,329.57458,407.97733Q250,406.80549,191.3735,387.02924Q132.74701,367.25299,77.06026,308.6265Q21.3735,250,49.05191,163.36516Q76.73032,76.73032,163.36516,85.537Q250,94.34367,322.00775,100.16408Q394.01551,105.98449,442.09784,177.99225Q490.18018,250,449.66467,329.57458Z;M423.42552,332.41134Q414.82268,414.82268,332.41134,424.30554Q250,433.78841,170.96572,420.92848Q91.93144,408.06856,46.07152,329.03428Q0.21159,250,66.88003,191.77423Q133.54846,133.54846,191.77423,102.82861Q250,72.10876,305.00592,106.04846Q360.01185,139.98815,396.0201,194.99408Q432.02836,250,423.42552,332.41134Z;M408.24461,332.63257Q415.26513,415.26513,332.63257,434.71568Q250,454.16622,179.33614,422.74697Q108.67228,391.32772,65.87585,320.66386Q23.07942,250,63.27221,176.73251Q103.46501,103.46501,176.73251,63.02288Q250,22.58075,311.86507,74.4253Q373.73015,126.26985,387.47712,188.13493Q401.22409,250,408.24461,332.63257Z"
+								></animate>
 							</path>
 						</svg>
 						<div class="relative">
-							<img class="object-contain object-center w-full mx-auto max-h-64 md:max-h-96 lg:max-h-128" alt="hero"
-								src="/herocopy.png" />
+							<img
+								class="object-contain object-center w-full mx-auto max-h-64 md:max-h-96 lg:max-h-128"
+								alt="hero"
+								src="/herocopy.png"
+							/>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div
-				class="flex flex-col items-center mt-12 mb-16 text-left md:items-start lg:flex-grow md:w-1/2 md:pl-6 xl:pl-24 md:mb-0 xl:mt-0 ">
+				class="flex flex-col items-center mt-12 mb-16 text-left md:items-start lg:flex-grow md:w-1/2 md:pl-6 xl:pl-24 md:mb-0 xl:mt-0"
+			>
 				<!-- <span
 						class="mb-8 text-xs font-bold tracking-widest uppercase text-amber-600 "
 					>
 						Your tagline
 					</span> -->
 				<!-- <img src="/logo1.png" alt="" class="max-w-[200px] mb-4"> -->
-				<h1 class="mb-2 text-5xl font-bold tracking-tighter text-center text-black md:text-left md:text-6xl">
-					<span class="text-gray-500">EXPERIENCE</span><br> <span
-						class="text-transparent text-9xl bg-clip-text bg-gradient-to-br from-amber-400 to-pink-600">PURI</span>
-					<div class="text-gray-500 underline decoration-amber-400">RESPONSIBLY</div>
+				<h1
+					class="mb-2 text-5xl font-bold tracking-tighter text-center text-black md:text-left md:text-6xl"
+				>
+					<span class="text-gray-500">EXPERIENCE</span><br />
+					<span
+						class="text-transparent text-9xl bg-clip-text bg-gradient-to-br from-amber-400 to-pink-600"
+						>PURI</span
+					>
+					<div class="text-gray-500 underline decoration-amber-400">
+						RESPONSIBLY
+					</div>
 				</h1>
 
-				<p class="mt-2 mb-4 text-base leading-relaxed text-center text-gray-600 sm:px-12 md:text-left">
-					We aim to bring maximum economic benefit to the locals and minimum negative impact on environment for
-					empowerment, conservation and innovation.
+				<p
+					class="mt-2 mb-4 text-base leading-relaxed text-center text-gray-600 sm:px-12 md:text-left"
+				>
+					We aim to bring maximum economic benefit to the locals and minimum
+					negative impact on environment for empowerment, conservation and
+					innovation.
 				</p>
 				<!-- <div class="flex mt-0 lg:mt-6 max-w-7xl">
 					<div class="mb-6 rounded-lg sm:mt-0">
@@ -81,27 +118,35 @@
 					</div>
 				</div> -->
 			</div>
-
 		</div>
 
 		<!-- services -->
 		<div class="relative max-w-5xl p-6 pb-12 mx-auto">
 			<div class="absolute -right-[300px] scale-50 bottom-0 z-90 opacity-60">
-				<svg width="832" height="974" viewBox="0 0 832 974" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<svg
+					width="832"
+					height="974"
+					viewBox="0 0 832 974"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
 					<path
 						d="M479.719 13.6427C636.098 -32.6918 586.868 48.3936 699.808 141.063C714.288 153.662 717.184 170.022 722.976 254.003C728.767 337.984 763.518 340.88 812.749 491.467C861.979 642.055 809.853 891.103 685.329 821.601C560.805 752.099 572.388 943.229 479.719 966.396C387.05 989.564 77.1881 960.605 22.1658 856.352C-32.8564 752.099 30.8536 694.181 77.1881 642.055C123.523 589.928 117.731 393.007 111.939 340.88C106.147 288.754 152.482 245.315 259.63 225.044C366.779 204.773 323.34 59.9772 479.719 13.6427Z"
-						fill="#F77A40" />
+						fill="#F77A40"
+					/>
 					<path
 						d="M490.43 89.2243C630.451 47.7364 586.37 120.34 687.497 203.316C700.462 214.598 703.055 229.246 708.241 304.443C713.427 379.639 744.543 382.232 788.624 517.068C832.705 651.903 786.031 874.901 674.532 812.669C563.033 750.437 573.405 921.575 490.43 942.319C407.454 963.062 130.004 937.133 80.7369 843.785C31.47 750.437 88.5159 698.577 130.004 651.904C171.492 605.23 166.306 428.906 161.12 382.232C155.934 335.559 197.422 296.664 293.362 278.513C389.303 260.362 350.408 130.712 490.43 89.2243Z"
-						fill="#FB9700" />
+						fill="#FB9700"
+					/>
 					<path
 						d="M509.432 166.42C632.166 130.054 593.528 193.694 682.169 266.425C693.533 276.314 695.806 289.153 700.351 355.066C704.897 420.979 732.171 423.252 770.81 541.44C809.448 659.628 768.537 855.093 670.804 800.544C573.072 745.996 582.163 896.004 509.432 914.187C436.701 932.37 193.506 909.641 150.322 827.819C107.138 745.996 157.14 700.539 193.506 659.628C229.872 618.717 225.326 464.163 220.78 423.252C216.235 382.34 252.6 348.247 336.696 332.338C420.791 316.428 386.698 202.785 509.432 166.42Z"
-						fill="#FCC97E" />
+						fill="#FCC97E"
+					/>
 				</svg>
-
 			</div>
-			<div class="z-50 flex flex-col items-center justify-center gap-8 my-12 sm:flex-row">
-
+			<div
+				class="z-50 flex flex-col items-center justify-center gap-8 my-12 sm:flex-row"
+			>
 				<!-- <div class="text-center">
 					<p class="mb-3 text-xs font-semibold tracking-wide text-gray-500 uppercase dark:text-gray-200">
 						Small business solutions
@@ -111,27 +156,34 @@
 					</h1>
 				</div> -->
 
-
 				<!-- <img src="/pata_painting1.jpg" alt=""
 					class="object-cover w-64 h-64 rounded-full shrink-0 ring-4 ring-offset-4 ring-sky-500"> -->
 				<div class="text-center">
-					<h3 class="inline-block text-2xl font-semibold tracking-wide text-gray-500 border-b-2 border-sky-500">OUR
-						SERVICES</h3>
+					<h3
+						class="inline-block text-2xl font-semibold tracking-wide text-gray-500 border-b-2 border-sky-500"
+					>
+						OUR SERVICES
+					</h3>
 
-					<h2 class="mt-3 text-4xl font-bold text-gray-500">Connecting You with <div
-							class="text-transparent bg-clip-text bg-gradient-to-br from-cyan-400 to-sky-600">Local Experts</div>
+					<h2 class="mt-3 text-4xl font-bold text-gray-500">
+						Connecting You with
+						<div
+							class="text-transparent bg-clip-text bg-gradient-to-br from-cyan-400 to-sky-600"
+						>
+							Local Experts
+						</div>
 					</h2>
 
 					<p class="max-w-lg mt-3">
-						Connect with local experts who
-						can provide you with authentic and unique experiences that align with the principles of <span
-							class="font-bold text-transparent bg-clip-text bg-gradient-to-tr from-green-500 to-teal-600">responsible
-							travel</span>.
-						From
-						guided tours to temple visits, our service providers will show you the best of what our city has to offer.
+						Connect with local experts who can provide you with authentic and
+						unique experiences that align with the principles of
+						<span
+							class="font-bold text-transparent bg-clip-text bg-gradient-to-tr from-green-500 to-teal-600"
+							>responsible travel</span
+						>. From guided tours to temple visits, our service providers will
+						show you the best of what our city has to offer.
 					</p>
 				</div>
-
 			</div>
 
 			<!-- <svg width="720" height="720" viewBox="0 0 720 720" fill="none" xmlns="http://www.w3.org/2000/svg"
@@ -141,80 +193,108 @@
 					fill="black" />
 			</svg> -->
 
-
 			<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2">
-
-				<ServiceCard title="Temple Visit"
+				<ServiceCard
+					@clicked="showBookingModal('Temple Visit')"
+					title="Temple Visit"
 					description="Experience the serenity and beauty of the temple with a personalized visit."
 					image="https://images.odishatv.in/uploadimage/library/16_9/16_9_0/IMAGE_1645674093.jpg"
-					class="overflow-hidden sm:max-w-96 shrink-0" />
-				<ServiceCard title="Bicycle Tours"
+					class="overflow-hidden sm:max-w-96 shrink-0"
+				/>
+				<ServiceCard
+					@clicked="showBookingModal('Bicycle Tour - Heritage Trail')"
+					title="Bicycle Tours"
 					description="Discover the beauty of the city on two wheels with our guided bicycle tours."
 					image="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_600,q_auto,w_auto/v1/filestore/30plok07lnbcgw3nys8ut201e3p3_1584967999_Blive-009.jpg"
-					class="overflow-hidden sm:max-w-96 shrink-0" />
-				<ServiceCard title="Excursions"
+					class="overflow-hidden sm:max-w-96 shrink-0"
+				/>
+				<ServiceCard
+					@clicked="showBookingModal('Excursions')"
+					title="Excursions"
 					description="Explore the breathtaking landscapes of Puri on one of our excursions."
 					image="https://www.drishtiias.com/images/uploads/1640860172_Sun_temple_drishti_ias_english.png"
-					class="overflow-hidden sm:max-w-96 shrink-0" />
-				<ServiceCard title="Workshops"
+					class="overflow-hidden sm:max-w-96 shrink-0"
+				/>
+				<ServiceCard
+					@clicked="showBookingModal('Art Workshop')"
+					title="Workshops"
 					description="Learn from experts in a hands-on, interactive setting with our workshops."
 					image="https://www.nativeplanet.com/img/2015/04/22-1429700807-paintingsonbetelnutbytheartistsofraghurajpur.jpg"
-					class="overflow-hidden sm:max-w-96 shrink-0" />
+					class="overflow-hidden sm:max-w-96 shrink-0"
+				/>
 			</div>
 
-			<div class="flex max-w-5xl mx-auto mt-2 space-x-2 overflow-scroll snap-mandatory snap-x scroll-container">
+			<div
+				class="flex max-w-5xl mx-auto mt-2 space-x-2 overflow-scroll snap-mandatory snap-x scroll-container"
+			>
 				<!-- <div class="flex gap-2 px-6 py-12"> -->
-
 			</div>
 		</div>
 
-
-
-
 		<!-- testimonials -->
-		<section class="relative bg-white dark:bg-gray-900">
+		<!-- <section class="relative bg-white dark:bg-gray-900">
 			<div class="container px-6 py-10 mx-auto">
-				<h1 class="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">
-					What our <span class="text-blue-500 ">clients</span> say
+				<h1
+					class="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white"
+				>
+					What our <span class="text-blue-500">clients</span> say
 				</h1>
 
-				<p class="max-w-2xl mx-auto mt-6 text-center text-gray-500 dark:text-gray-300">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo incidunt ex placeat modi magni quia error
-					alias, adipisci rem similique, at omnis eligendi optio eos harum.
+				<p
+					class="max-w-2xl mx-auto mt-6 text-center text-gray-500 dark:text-gray-300"
+				>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo incidunt
+					ex placeat modi magni quia error alias, adipisci rem similique, at
+					omnis eligendi optio eos harum.
 				</p>
 
-				<section class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 lg:grid-cols-2 xl:grid-cols-3">
+				<section
+					class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 lg:grid-cols-2 xl:grid-cols-3"
+				>
 					<div class="p-8 border rounded-lg dark:border-gray-700">
 						<p class="leading-loose text-gray-500 dark:text-gray-400">
-							“I had a fantastic time on the bicycle tour, the guide was knowledgeable and the route was stunning. I
-							would highly recommend it to anyone visiting the city.”.
+							“I had a fantastic time on the bicycle tour, the guide was
+							knowledgeable and the route was stunning. I would highly recommend
+							it to anyone visiting the city.”.
 						</p>
 
 						<div class="flex items-center mt-8 -mx-2">
-							<img class="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300 dark:ring-gray-700"
+							<img
+								class="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300 dark:ring-gray-700"
 								src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-								alt="">
+								alt=""
+							/>
 
 							<div class="mx-2">
-								<h1 class="font-semibold text-gray-800 dark:text-white">Robert</h1>
-								<span class="text-sm text-gray-500">CTO, Robert Consultency</span>
+								<h1 class="font-semibold text-gray-800 dark:text-white">
+									Robert
+								</h1>
+								<span class="text-sm text-gray-500"
+									>CTO, Robert Consultency</span
+								>
 							</div>
 						</div>
 					</div>
 
 					<div class="p-8 border rounded-lg dark:border-gray-700">
 						<p class="leading-loose text-gray-500 dark:text-gray-400">
-							“Visiting the temple was a truly spiritual experience. The ambiance was peaceful and the staff were
-							incredibly welcoming. I feel grateful to have had the opportunity to visit such a sacred place.”.
+							“Visiting the temple was a truly spiritual experience. The
+							ambiance was peaceful and the staff were incredibly welcoming. I
+							feel grateful to have had the opportunity to visit such a sacred
+							place.”.
 						</p>
 
 						<div class="flex items-center mt-8 -mx-2">
-							<img class="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300 dark:ring-gray-700"
+							<img
+								class="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300 dark:ring-gray-700"
 								src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
-								alt="">
+								alt=""
+							/>
 
 							<div class="mx-2">
-								<h1 class="font-semibold text-gray-800 dark:text-white">Jeny Doe</h1>
+								<h1 class="font-semibold text-gray-800 dark:text-white">
+									Jeny Doe
+								</h1>
 								<span class="text-sm text-gray-500">CEO, Jeny Consultency</span>
 							</div>
 						</div>
@@ -222,247 +302,382 @@
 
 					<div class="p-8 border rounded-lg dark:border-gray-700">
 						<p class="leading-loose text-gray-500 dark:text-gray-400">
-							“I booked the bicycle tour for my family and we all had a great time. The bikes were in good condition and
-							the route was easy to follow. We saw so many interesting sights and had a lot of fun. I would definitely
-							do it again.”.
+							“I booked the bicycle tour for my family and we all had a great
+							time. The bikes were in good condition and the route was easy to
+							follow. We saw so many interesting sights and had a lot of fun. I
+							would definitely do it again.”.
 						</p>
 
 						<div class="flex items-center mt-8 -mx-2">
-							<img class="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300 dark:ring-gray-700"
+							<img
+								class="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300 dark:ring-gray-700"
 								src="https://images.unsplash.com/photo-1488508872907-592763824245?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-								alt="">
+								alt=""
+							/>
 
 							<div class="mx-2">
-								<h1 class="font-semibold text-gray-800 dark:text-white">Ema Watson </h1>
-								<span class="text-sm text-gray-500">Marketing Manager at Stech</span>
+								<h1 class="font-semibold text-gray-800 dark:text-white">
+									Ema Watson
+								</h1>
+								<span class="text-sm text-gray-500"
+									>Marketing Manager at Stech</span
+								>
 							</div>
 						</div>
 					</div>
 				</section>
 			</div>
 
-			<svg width="1513" height="240" viewBox="0 0 1513 240" fill="none" xmlns="http://www.w3.org/2000/svg"
-				class="absolute z-10 w-full -bottom-44">
+			<svg
+				width="1513"
+				height="240"
+				viewBox="0 0 1513 240"
+				fill="none"
+				xmlns="http://www.w3.org/2000/svg"
+				class="absolute z-10 w-full -bottom-44"
+			>
 				<path
 					d="M146.393 239.733C45.4644 231.868 0.816284 124.088 0.816284 51.0829V0.332767L1512.86 0.332584V48.0092C1068.62 114.676 187.241 242.916 146.393 239.733Z"
-					fill="white" />
+					fill="white"
+				/>
 			</svg>
-
-		</section>
-
+		</section> -->
 
 		<!-- bicycle tours -->
-		<div class="pb-12 bg-teal-800 pt-28 ">
+		<div class="pb-12 bg-teal-800 pt-28">
 			<div class="max-w-5xl p-6 mx-auto text-white">
-
 				<div class="z-50 grid gap-4 sm:grid-cols-2">
 					<div class="p-6 text-teal-800 bg-white rounded-tl-3xl rounded-br-3xl">
 						<div class="text-6xl font-bold font-arvo">BICYCLE TOURS</div>
 						<div class="mt-6">
-							Discover the lanscapes of Puri in a healthier way and soak in the local culture.</div>
+							Discover the lanscapes of Puri in a healthier way and soak in the
+							local culture.
+						</div>
 					</div>
 
 					<div class="p-6 bg-teal-900 rounded-tl-3xl rounded-br-3xl">
-						<img src="https://source.unsplash.com/random/heritage" alt="" class="object-cover w-full rounded-lg h-44">
-						<div class="pt-3 text-3xl font-bold font-arvo">Heritage <span class="opacity-50">Trail</span></div>
-						<div class="text-white/60">Journey through the cultural history of Puri and learn about the temples and feel
-							the essence of Puri.</div>
+						<img
+							src="https://source.unsplash.com/random?heritage"
+							alt=""
+							class="object-cover w-full rounded-lg h-44"
+						/>
+						<div class="pt-3 text-3xl font-bold font-arvo">
+							Heritage <span class="opacity-50">Trail</span>
+						</div>
+						<div class="text-white/60">
+							Journey through the cultural history of Puri and learn about the
+							temples and feel the essence of Puri.
+						</div>
 
 						<button
-							class="px-3 py-1 mt-2 font-bold text-center text-black transition rounded bg-amber-500 hover:bg-white">Book
-							Now</button>
+							@click.prevent="showBookingModal('Bicycle Tour - Heritage Trail')"
+							class="px-3 py-1 mt-2 font-bold text-center text-black transition rounded bg-amber-500 hover:bg-white"
+						>
+							Book Now
+						</button>
 					</div>
 
-					<div class="p-6 bg-teal-900 rounded-tl-3xl rounded-br-3xl hover:ring-2 hover:ring-teal-700">
-						<img src="https://source.unsplash.com/random/countryside" alt=""
-							class="object-cover w-full rounded-lg h-44">
+					<div
+						class="p-6 bg-teal-900 rounded-tl-3xl rounded-br-3xl hover:ring-2 hover:ring-teal-700"
+					>
+						<img
+							src="https://source.unsplash.com/random?countryside"
+							alt=""
+							class="object-cover w-full rounded-lg h-44"
+						/>
 
-
-						<div class="pt-3 text-3xl font-bold font-arvo">Countryside <span class="opacity-50">Trail</span></div>
-						<div class="text-white/60">Explore the calm countryside through a crafted trail on a bicycle and soak in the
-							tranquility.</div>
+						<div class="pt-3 text-3xl font-bold font-arvo">
+							Countryside <span class="opacity-50">Trail</span>
+						</div>
+						<div class="text-white/60">
+							Explore the calm countryside through a crafted trail on a bicycle
+							and soak in the tranquility.
+						</div>
 
 						<button
-							class="px-3 py-1 mt-2 font-bold text-center text-black transition rounded bg-amber-500 hover:bg-white">Book
-							Now</button>
-
-
-						<div></div>
-						<div></div>
+							@click.prevent="
+								showBookingModal('Bicycle Tour - Countryside Trail')
+							"
+							class="px-3 py-1 mt-2 font-bold text-center text-black transition rounded bg-amber-500 hover:bg-white"
+						>
+							Book Now
+						</button>
 					</div>
 					<div class="p-6 bg-teal-900 rounded-tl-3xl rounded-br-3xl">
-						<img src="https://source.unsplash.com/random/forest" alt="" class="object-cover w-full rounded-lg h-44">
+						<img
+							src="https://source.unsplash.com/random?forest"
+							alt=""
+							class="object-cover w-full rounded-lg h-44"
+						/>
 
-						<div class="pt-3 text-3xl font-bold font-arvo">Forest <span class="opacity-50">Trail</span></div>
-						<div class="text-white/60">Explore thick woods of the Balukhanda-Konark Sanctuary, spot a variety of birds,
-							and
-							the mesmerizingly beautiful spotted deers, and end up finding the beach.</div>
+						<div class="pt-3 text-3xl font-bold font-arvo">
+							Forest <span class="opacity-50">Trail</span>
+						</div>
+						<div class="text-white/60">
+							Explore thick woods of the Balukhanda-Konark Sanctuary, spot a
+							variety of birds, and the mesmerizingly beautiful spotted deers,
+							and end up finding the beach.
+						</div>
 
 						<button
-							class="px-3 py-1 mt-2 font-bold text-center text-black transition rounded bg-amber-500 hover:bg-white">Book
-							Now</button>
-
+							@click.prevent="showBookingModal('Bicycle Tour - Forest Trail')"
+							class="px-3 py-1 mt-2 font-bold text-center text-black transition rounded bg-amber-500 hover:bg-white"
+						>
+							Book Now
+						</button>
 					</div>
 				</div>
-
-				<div class="grid gap-4 md:grid-cols-4">
-					<div class="col-span-2">
-
-					</div>
-
-					<div class="grid grid-cols-1 col-span-2 gap-4">
-
-
-					</div>
-				</div>
-
 			</div>
 		</div>
-
-
 
 		<!-- experiential tours -->
 		<div class="py-12 bg-gradient-to-b from-teal-800 via-cyan-600 to-gray-900">
 			<div class="max-w-5xl p-6 mx-auto text-stone-600">
 				<div class="relative mb-6">
-					<img src="/puri_beach2.png" alt="" class="rounded-lg">
-					<div class="absolute text-4xl font-bold text-white top-12 md:text-7xl left-12"><span
-							class="font-bold text-transparent bg-clip-text bg-gradient-to-tr from-sky-400 via-sky-300 to-cyan-700 mix-blend-plus-lighter">EXPERIENTIAL</span>
-						<br>TOURS
+					<img src="/puri_beach2.png" alt="" class="rounded-lg" />
+					<div
+						class="absolute text-4xl font-bold text-white top-12 md:text-7xl left-12"
+					>
+						<span
+							class="font-bold text-transparent bg-clip-text bg-gradient-to-tr from-sky-400 via-sky-300 to-cyan-700 mix-blend-plus-lighter"
+							>EXPERIENTIAL</span
+						>
+						<br />TOURS
 					</div>
 
 					<div
-						class="max-w-md p-6 font-semibold tracking-wide text-gray-200 shadow sm:absolute bg-black/50 sm:text-xl bottom-20 left-12 rounded-tl-3xl rounded-br-3xl">
-						Feel like a local
-						and immerse yourself in the charm of Puri with our expertly planned experiential tours.</div>
+						class="max-w-md p-6 font-semibold tracking-wide text-gray-200 shadow sm:absolute bg-black/50 sm:text-xl bottom-20 left-12 rounded-tl-3xl rounded-br-3xl"
+					>
+						Feel like a local and immerse yourself in the charm of Puri with our
+						expertly planned experiential tours.
+					</div>
 				</div>
 
 				<div class="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
-					<div class="flex flex-col items-center overflow-hidden border rounded-lg border-cyan-900">
+					<div
+						class="flex flex-col items-center overflow-hidden border rounded-lg border-cyan-900"
+					>
 						<div class="w-full shrink-0">
-							<img src="/walk_forest.png" alt="" class="object-cover w-full rounded-t-lg h-44">
+							<img
+								src="/walk_forest.png"
+								alt=""
+								class="object-cover w-full rounded-t-lg h-44"
+							/>
 						</div>
-						<div class="flex flex-col h-full p-6 bg-white text-cyan-900 ">
+						<div class="flex flex-col h-full p-6 bg-white text-cyan-900">
 							<div class="mb-1 text-3xl font-bold capitalize">Nature Walk</div>
 							<div class="h-2 bg-teal-600 rounded-lg w-44"></div>
-							<div class="mt-3 leading-relaxed">Experience the calmness of the wild with the river guiding you to the
-								sea. Developed and maintained
-								by the Forest Department of Puri, this nature walk trail will leave you in awe of the splendor of
-								the green thickets of the coasts.</div>
-							<button class="w-full p-3 mt-3 font-bold text-black rounded-lg bg-amber-400 sm:w-44 sm:inline-block">Book
-								Now</button>
+							<div class="mt-3 leading-relaxed">
+								Experience the calmness of the wild with the river guiding you
+								to the sea. Developed and maintained by the Forest Department of
+								Puri, this nature walk trail will leave you in awe of the
+								splendor of the green thickets of the coasts.
+							</div>
+							<button
+								@click.prevent="showBookingModal('Nature Walk')"
+								class="w-full p-3 mt-3 font-bold text-black rounded-lg bg-amber-400 sm:w-44 sm:inline-block"
+							>
+								Book Now
+							</button>
 						</div>
 					</div>
 
-					<div class="flex flex-col items-center overflow-hidden border rounded-lg border-cyan-900">
+					<div
+						class="flex flex-col items-center overflow-hidden border rounded-lg border-cyan-900"
+					>
 						<div class="w-full shrink-0">
-							<img src="/sweets_tour.png" alt="" class="object-cover w-full rounded-t-lg h-44">
+							<img
+								src="/sweets_tour.png"
+								alt=""
+								class="object-cover w-full rounded-t-lg h-44"
+							/>
 						</div>
 						<div class="flex flex-col h-full p-6 bg-white text-cyan-900">
 							<div class="mb-1 text-3xl font-bold capitalize">Sweets Tour</div>
 							<div class="h-2 rounded-lg bg-amber-600 w-44"></div>
-							<div class="flex-grow mt-3 leading-relaxed">A number of traditional sweets are prepared and served by
-								decades-old Sweets shops located in the vicinity of Sree Jagannath Temple. Satiate the sweet tooth in
-								you and taste Malpua to khaja to kheer and many more.</div>
-							<button class="w-full p-3 mt-3 font-bold text-black rounded-lg bg-amber-400 sm:w-44 sm:inline-block">Book
-								Now</button>
+							<div class="flex-grow mt-3 leading-relaxed">
+								A number of traditional sweets are prepared and served by
+								decades-old Sweets shops located in the vicinity of Sree
+								Jagannath Temple. Satiate the sweet tooth in you and taste
+								Malpua to khaja to kheer and many more.
+							</div>
+							<button
+								@click.prevent="showBookingModal('Sweets Tour')"
+								class="w-full p-3 mt-3 font-bold text-black rounded-lg bg-amber-400 sm:w-44 sm:inline-block"
+							>
+								Book Now
+							</button>
 						</div>
 					</div>
 
-					<div class="flex flex-col items-center overflow-hidden border rounded-lg border-cyan-900">
+					<div
+						class="flex flex-col items-center overflow-hidden border rounded-lg border-cyan-900"
+					>
 						<div class="w-full shrink-0">
-							<img src="/art_workshop.png" alt="" class="object-cover w-full rounded-t-lg h-44">
+							<img
+								src="/art_workshop.png"
+								alt=""
+								class="object-cover w-full rounded-t-lg h-44"
+							/>
 						</div>
 						<div class="flex flex-col h-full p-6 bg-white text-cyan-900">
 							<div class="mb-1 text-3xl font-bold capitalize">Art Workshop</div>
 							<div class="h-2 bg-pink-600 rounded-lg w-44"></div>
-							<div class="flex-grow mt-3 leading-relaxed">Unleash your creativity and learn the timeless art of
-								Pattachitra with our expert instructors. Learn the secrets of Pattachitra from esteemed local artists
-								and create your own masterpiece.</div>
-							<button class="w-full p-3 mt-3 font-bold text-black rounded-lg bg-amber-400 sm:w-44 sm:inline-block">Book
-								Now</button>
+							<div class="flex-grow mt-3 leading-relaxed">
+								Unleash your creativity and learn the timeless art of
+								Pattachitra with our expert instructors. Learn the secrets of
+								Pattachitra from esteemed local artists and create your own
+								masterpiece.
+							</div>
+							<button
+								@click.prevent="showBookingModal('Art Workshop')"
+								class="w-full p-3 mt-3 font-bold text-black rounded-lg bg-amber-400 sm:w-44 sm:inline-block"
+							>
+								Book Now
+							</button>
 						</div>
 					</div>
 				</div>
-
 			</div>
 		</div>
 
-
 		<div class="py-12 text-center text-white bg-gray-900 hero">
-			<h1 class="mb-6 text-5xl font-bold leading-none font-arvo"><span class="text-purple-500">SATURDAY</span> HAAT</h1>
-			<h2 class="text-4xl">Local Artists’ <span class="text-purple-500">Night Bazaar</span></h2>
-			<img src="/saturdayhaat.png" alt="night market" class="object-cover w-full max-w-5xl pt-12 mx-auto mb-6">
+			<h1 class="mb-6 text-5xl font-bold leading-none font-arvo">
+				<span class="text-purple-500">SATURDAY</span> HAAT
+			</h1>
+			<h2 class="text-4xl">
+				Local Artists’ <span class="text-purple-500">Night Bazaar</span>
+			</h2>
+
+			<button
+				@click.prevent="showBookingModal('Saturday Haat')"
+				class="w-full p-3 mt-6 font-bold text-black rounded-full bg-amber-400 sm:w-44 sm:inline-block"
+			>
+				Book Guided Tour
+			</button>
+			<img
+				src="/saturdayhaat.png"
+				alt="night market"
+				class="object-cover w-full max-w-5xl pt-12 mx-auto mb-6"
+			/>
 			<div class="max-w-3xl px-12 mx-auto">
-				<p class="mb-8 text-xl font-light">Support local artisans and discover unique, handmade crafts at the Saturday
-					Night Bazaar at Niladree Beach. This market, organized by the Odisha Ecotourism Foundation Trust and Puri
-					Municipality, is a great way to explore Puri's creative community.</p>
+				<p class="mb-8 text-xl font-light">
+					Support local artisans and discover unique, handmade crafts at the
+					Saturday Night Bazaar at Niladree Beach. This market, organized by the
+					Odisha Ecotourism Foundation Trust and Puri Municipality, is a great
+					way to explore Puri's creative community.
+				</p>
 				<!-- <button class="px-8 py-4 font-bold text-white bg-orange-500 rounded-full hover:bg-orange-600">Learn
 					More</button> -->
 			</div>
 
-			<div class="grid max-w-4xl gap-12 px-4 mx-auto md:divide-x md:grid-cols-2">
+			<div
+				class="grid max-w-4xl gap-12 px-4 mx-auto md:divide-x md:grid-cols-2"
+			>
 				<div class="px-6">
 					<ul class="space-y-6">
 						<li class="flex text-white">
-							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-								stroke="currentColor" class="w-6 h-6 shrink-0">
-								<path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-								<path stroke-linecap="round" stroke-linejoin="round"
-									d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								class="w-6 h-6 shrink-0"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+								/>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+								/>
 							</svg>
 
-
 							<div class="ml-4 text-left">
-								<h3 class="text-lg font-bold text-purple-400">Direct interactions with artisans</h3>
+								<h3 class="text-lg font-bold text-purple-400">
+									Direct interactions with artisans
+								</h3>
 								<p class="text-gray-400">
-									Connect with the artisans who bring their creativity and skill to life, and learn about their
-									techniques and traditions.
+									Connect with the artisans who bring their creativity and skill
+									to life, and learn about their techniques and traditions.
 								</p>
 							</div>
 						</li>
 
 						<li class="flex text-white">
-							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-								stroke="currentColor" class="w-6 h-6 shrink-0">
-								<path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-								<path stroke-linecap="round" stroke-linejoin="round"
-									d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								class="w-6 h-6 shrink-0"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+								/>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+								/>
 							</svg>
 
-
 							<div class="ml-4 text-left">
-								<h3 class="text-lg font-bold text-purple-400">Cultural events</h3>
+								<h3 class="text-lg font-bold text-purple-400">
+									Cultural events
+								</h3>
 								<p class="text-gray-400">
-									Connect with the artisans who bring their creativity and skill to life, and learn about their
-									techniques and traditions.
+									Connect with the artisans who bring their creativity and skill
+									to life, and learn about their techniques and traditions.
 								</p>
 							</div>
 						</li>
 
 						<li class="flex text-white">
-							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-								stroke="currentColor" class="w-6 h-6 shrink-0">
-								<path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-								<path stroke-linecap="round" stroke-linejoin="round"
-									d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								class="w-6 h-6 shrink-0"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+								/>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+								/>
 							</svg>
 
-
 							<div class="ml-4 text-left">
-								<h3 class="text-lg font-bold text-purple-400">Locally made fresh food</h3>
+								<h3 class="text-lg font-bold text-purple-400">
+									Locally made fresh food
+								</h3>
 								<p class="text-gray-400">
-									Enjoy the taste of fresh, locally made food that is made with love and care and support the local
-									community.
+									Enjoy the taste of fresh, locally made food that is made with
+									love and care and support the local community.
 								</p>
 							</div>
 						</li>
-
-
 					</ul>
 				</div>
 				<div class="max-w-xl mx-auto md:text-left md:pl-6">
-					<h2 class="font-bold text-7xl"><span class="text-purple-500">One of its kind</span> local beach market</h2>
+					<h2 class="font-bold text-7xl">
+						<span class="text-purple-500">One of its kind</span> local beach
+						market
+					</h2>
 					<p class="text-2xl">
 						Enjoy the weekend immersed in the culture of Puri!
 					</p>
@@ -476,10 +691,14 @@
 			<div class="grid gap-10 md:grid-cols-5">
 				<div class="md:col-span-2">
 					<div class="max-w-xs">
-						<h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Frequently<br>asked questions
+						<h2
+							class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white"
+						>
+							Frequently<br />asked questions
 						</h2>
-						<p class="hidden mt-1 text-gray-600 md:block dark:text-gray-400">Answers to the most frequently asked
-							questions.</p>
+						<p class="hidden mt-1 text-gray-600 md:block dark:text-gray-400">
+							Answers to the most frequently asked questions.
+						</p>
 					</div>
 				</div>
 				<!-- End Col -->
@@ -488,47 +707,77 @@
 					<!-- Accordion -->
 					<div class="space-y-3 divide-y divide-gray-200">
 						<div class="py-3">
-							<h3 class="pb-3 font-semibold text-left text-gray-800 md:text-lg hover:text-gray-500">What kind of tours
-								does your travel website offer in Puri?</h3>
+							<h3
+								class="pb-3 font-semibold text-left text-gray-800 md:text-lg hover:text-gray-500"
+							>
+								What kind of tours does your travel website offer in Puri?
+							</h3>
 							<p class="text-gray-600 dark:text-gray-400">
-								We offer a range of personalised temple visits, bicycle tours, workshops, and experiential tours in
-								Puri. Our tours are designed to give visitors a unique and immersive experience, and are tailored to the
-								individual interests and preferences of our guests.
+								We offer a range of personalised temple visits, bicycle tours,
+								workshops, and experiential tours in Puri. Our tours are
+								designed to give visitors a unique and immersive experience, and
+								are tailored to the individual interests and preferences of our
+								guests.
 							</p>
 						</div>
 
-						<div class="py-3" id="hs-basic-with-title-and-arrow-stretched-heading-one">
-							<h3 class="pb-3 font-semibold text-left text-gray-800 md:text-lg hover:text-gray-500">What is the
-								principle of responsible tourism that your company follows?</h3>
+						<div
+							class="py-3"
+							id="hs-basic-with-title-and-arrow-stretched-heading-one"
+						>
+							<h3
+								class="pb-3 font-semibold text-left text-gray-800 md:text-lg hover:text-gray-500"
+							>
+								What is the principle of responsible tourism that your company
+								follows?
+							</h3>
 							<p class="text-gray-600 dark:text-gray-400">
-								We believe in the principle of responsible tourism, which means that we strive to minimize our
-								environmental impact and support local communities while providing high-quality travel experiences. This
-								means that we use eco-friendly modes of transportation and we work with local guides and businesses to
+								We believe in the principle of responsible tourism, which means
+								that we strive to minimize our environmental impact and support
+								local communities while providing high-quality travel
+								experiences. This means that we use eco-friendly modes of
+								transportation and we work with local guides and businesses to
 								support the local economy.
 							</p>
 						</div>
 
-						<div class="py-3" id="hs-basic-with-title-and-arrow-stretched-heading-one">
-							<h3 class="pb-3 font-semibold text-left text-gray-800 md:text-lg hover:text-gray-500">Can you accommodate
-								travelers with special needs or disabilities?</h3>
+						<div
+							class="py-3"
+							id="hs-basic-with-title-and-arrow-stretched-heading-one"
+						>
+							<h3
+								class="pb-3 font-semibold text-left text-gray-800 md:text-lg hover:text-gray-500"
+							>
+								Can you accommodate travelers with special needs or
+								disabilities?
+							</h3>
 							<p class="text-gray-600 dark:text-gray-400">
-								Yes, we are committed to providing accessible and inclusive travel experiences for all of our guests. If
-								you have any special needs or disabilities, please let us know in advance so that we can make the
-								necessary arrangements to accommodate you on our tours.
+								Yes, we are committed to providing accessible and inclusive
+								travel experiences for all of our guests. If you have any
+								special needs or disabilities, please let us know in advance so
+								that we can make the necessary arrangements to accommodate you
+								on our tours.
 							</p>
 						</div>
 
-						<div class="py-3" id="hs-basic-with-title-and-arrow-stretched-heading-one">
-							<h3 class="pb-3 font-semibold text-left text-gray-800 md:text-lg hover:text-gray-500">What safety measures
-								are in place to protect travelers on your tours?</h3>
+						<div
+							class="py-3"
+							id="hs-basic-with-title-and-arrow-stretched-heading-one"
+						>
+							<h3
+								class="pb-3 font-semibold text-left text-gray-800 md:text-lg hover:text-gray-500"
+							>
+								What safety measures are in place to protect travelers on your
+								tours?
+							</h3>
 							<p class="text-gray-600 dark:text-gray-400">
-								The safety and well-being of our guests is our top priority. All of our tours are carefully planned and
-								conducted by experienced and knowledgeable local guides, and we follow all local health and safety
-								guidelines to ensure a safe and enjoyable experience for our guests.
+								The safety and well-being of our guests is our top priority. All
+								of our tours are carefully planned and conducted by experienced
+								and knowledgeable local guides, and we follow all local health
+								and safety guidelines to ensure a safe and enjoyable experience
+								for our guests.
 							</p>
 						</div>
-
-
 					</div>
 					<!-- End Accordion -->
 				</div>
@@ -538,90 +787,329 @@
 		</div>
 		<!-- End FAQ -->
 
-		<footer class="px-4 py-12 mx-auto text-white bg-gray-800 ">
+		<footer class="px-4 py-12 mx-auto text-white bg-gray-800">
 			<div class="flex items-center justify-between max-w-3xl mx-auto">
-				<p class="text-sm">
-					Copyright &copy; 2022
-				</p>
+				<p class="text-sm">Copyright &copy; 2022</p>
 				<div>
-					<a href="#" class="inline-block mr-4 text-sm">
-						Contact
-					</a>
-					<a href="#" class="inline-block text-sm">
-						Privacy
-					</a>
+					<a href="#" class="inline-block mr-4 text-sm"> Contact </a>
+					<a href="#" class="inline-block text-sm"> Privacy </a>
 				</div>
 			</div>
 		</footer>
 
-		<AppModal :isActive="isModalActive">
-			<div class="w-full p-6 bg-white rounded-lg shadow-lg">
-				<h2 class="mb-2 text-2xl font-bold">Bicycle Tour</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi rerum iure delectus labore facere neque vel
-					perspiciatis nulla maiores iusto.</p>
-				<form class="mt-3">
+		<AppModal @close="isModalActive = false" :isActive="isModalActive">
+			<div class="w-full sm:p-12 p-6 bg-gray-200 rounded-lg shadow-lg relative">
+				<div
+					class="flex flex-col sm:h-[calc(100vh-200px)] h-[calc(100vh-30px)]"
+				>
+					<div class="flex-grow h-full overflow-y-scroll">
+						<div v-if="!isMailSent">
+							<!-- <div>
+								<h2 class="mb-2 text-2xl font-bold">Book Your Experience</h2>
+								<p>Please fill out the details below.</p>
+							</div> -->
 
-					<div class="flex gap-6">
-						<div class="w-1/2 mb-4">
-							<label class="block mb-2 text-sm font-bold text-gray-700" for="date">
-								Choose date
-							</label>
-							<input
-								class="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
-								id="date" type="date" placeholder="Choose the date of the tour" v-model="date" />
+							<form class="mt-2">
+								<div
+									class="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl"
+									id="tabs-with-card-item-2"
+									data-hs-tab="#tabs-with-card-2"
+									aria-controls="tabs-with-card-2"
+									role="tab"
+								>
+									<span class="flex">
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											fill="none"
+											viewBox="0 0 24 24"
+											stroke-width="1.5"
+											stroke="currentColor"
+											class="flex-shrink-0 mt-2 h-6 w-6 md:w-7 md:h-7 hs-tab-active:text-blue-600 text-gray-800"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"
+											/>
+										</svg>
+
+										<span class="grow ml-6">
+											<span
+												class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200"
+												>Booking details</span
+											>
+											<span
+												class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200"
+												>Choose date and number of guests.</span
+											>
+										</span>
+									</span>
+								</div>
+								<div class="flex flex-col bg-white border shadow-sm rounded-xl">
+									<div class="py-4">
+										<div class="px-6 py-3">
+											<label
+												class="block mb-2 text-sm font-bold text-gray-700"
+												for="date"
+											>
+												Choose an experience
+											</label>
+											<select
+												class="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow focus:outline-none focus:shadow-outline"
+												v-model="booking.service"
+											>
+												<option value="">Not selected</option>
+												<option value="Temple Visit">Temple Visit</option>
+												<option value="Bicycle Tour - Heritage Trail">
+													Bicycle Tour - Heritage Trail
+												</option>
+												<option value="Bicycle Tour - Countryside Trail">
+													Bicycle Tour - Countryside Trail
+												</option>
+												<option value="Bicycle Tour - Forest Trail">
+													Bicycle Tour - Forest Trail
+												</option>
+												<option value="Guided Tour">Guided Tour</option>
+												<option value="Excursions">Excursions</option>
+												<option value="Nature Walk">Nature Walk</option>
+												<option value="Sweets Tour">Sweets Tour</option>
+												<option value="Art Workshop">Art Workshop</option>
+												<option value="Saturday Haat">Saturday Haat</option>
+											</select>
+										</div>
+
+										<div class="px-6 py-3">
+											<label
+												class="block mb-2 text-sm font-bold text-gray-700"
+												for="date"
+											>
+												Choose date
+											</label>
+											<input
+												class="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+												id="date"
+												type="date"
+												placeholder="Choose the date of the tour"
+												v-model="booking.date"
+											/>
+										</div>
+
+										<div class="flex flex-col sm:flex-row gap-6 px-6 py-3">
+											<div class="sm:w-1/2 w-full">
+												<label
+													class="block mb-2 text-sm font-bold text-gray-700"
+													for="name"
+												>
+													Number of guests
+												</label>
+												<input
+													class="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+													id="name"
+													type="number"
+													placeholder="1"
+													v-model="booking.guest_count"
+												/>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div>
+									<button
+										type="button"
+										class="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700"
+										id="tabs-with-card-item-2"
+										data-hs-tab="#tabs-with-card-2"
+										aria-controls="tabs-with-card-2"
+										role="tab"
+									>
+										<span class="flex">
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												fill="none"
+												viewBox="0 0 24 24"
+												stroke-width="1.5"
+												stroke="currentColor"
+												class="flex-shrink-0 mt-2 h-6 w-6 md:w-7 md:h-7 hs-tab-active:text-blue-600 text-gray-800"
+											>
+												<path
+													stroke-linecap="round"
+													stroke-linejoin="round"
+													d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z"
+												/>
+											</svg>
+
+											<span class="grow ml-6">
+												<span
+													class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200"
+													>Contact details</span
+												>
+												<span
+													class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200"
+													>Please tell us how to contact you.</span
+												>
+											</span>
+										</span>
+									</button>
+									<div
+										class="flex flex-col bg-white border shadow-sm rounded-xl"
+									>
+										<div class="px-6 py-3">
+											<div class="mb-4">
+												<label
+													class="block mb-2 text-sm font-bold text-gray-700"
+													for="name"
+												>
+													Name
+												</label>
+												<input
+													class="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+													id="name"
+													type="text"
+													placeholder="Enter your name"
+													v-model="booking.guest_name"
+												/>
+											</div>
+											<div class="mb-4">
+												<label
+													class="block mb-2 text-sm font-bold text-gray-700"
+													for="email"
+												>
+													Email
+												</label>
+												<input
+													class="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+													id="email"
+													type="email"
+													placeholder="Enter your email"
+													v-model="booking.guest_email"
+												/>
+											</div>
+
+											<div class="mb-4">
+												<label
+													class="block mb-2 text-sm font-bold text-gray-700"
+													for="phone"
+												>
+													Phone
+												</label>
+												<input
+													class="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+													id="phone"
+													type="tel"
+													placeholder="Enter your phone number"
+													v-model="booking.guest_phone"
+												/>
+											</div>
+										</div>
+									</div>
+								</div>
+							</form>
 						</div>
 
-						<div class="w-1/2 mb-4">
-							<label class="block mb-2 text-sm font-bold text-gray-700" for="date">
-								Choose a time slot
-							</label>
-							<select
-								class="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow focus:outline-none focus:shadow-outline">
-								<option value="7:30AM">7:30AM</option>
-								<option value="11:00AM">11:00AM</option>
-								<option value="4:00PM">4:00PM</option>
-								<option value="7:00PM">7:00PM</option>
+						<div
+							v-else
+							class="text-center h-full flex flex-col justify-center items-center"
+						>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								class="w-12 h-12 text-teal-600"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z"
+								/>
+							</svg>
 
-							</select>
+							<div class="mt-6">
+								<h2 class="text-2xl font-bold">Thank you!</h2>
+								<p>
+									We have received your booking. We will get back to you soon!
+								</p>
+							</div>
 						</div>
 					</div>
-
-					<div class="mb-4">
-						<label class="block mb-2 text-sm font-bold text-gray-700" for="name">
-							Name
-						</label>
-						<input
-							class="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
-							id="name" type="text" placeholder="Enter your name" v-model="name" />
+					<div
+						v-if="!isMailSent"
+						class="flex justify-end items-center gap-x-2 py-3 mt-3"
+					>
+						<button
+							@click.prevent="isModalActive = !isModalActive"
+							class="py-2.5 px-4 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-gray-800 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800"
+							data-hs-overlay="#hs-notifications"
+						>
+							Cancel
+						</button>
+						<button
+							@click.prevent="sendMessage"
+							class="py-2.5 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-cyan-600 text-white hover:bg-cyan-800 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:ring-offset-2 transition-all text-sm"
+							:class="[
+								sendMsgBtnTxt == 'Booking...'
+									? 'opacity-50 pointer-events-none'
+									: '',
+								booking.guest_name &&
+								(booking.guest_email || booking.guest_phone)
+									? ''
+									: 'opacity-50 pointer-events-none',
+							]"
+						>
+							{{ sendMsgBtnTxt }}
+						</button>
 					</div>
-
-					<div class="mb-4">
-						<label class="block mb-2 text-sm font-bold text-gray-700" for="email">
-							Email
-						</label>
-						<input
-							class="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
-							id="email" type="email" placeholder="Enter your email" v-model="email" />
-					</div>
-
-					<div class="mb-4">
-						<label class="block mb-2 text-sm font-bold text-gray-700" for="phone">
-							Phone
-						</label>
-						<input
-							class="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
-							id="phone" type="tel" placeholder="Enter your phone number" v-model="phone" />
-					</div>
-				</form>
+				</div>
 			</div>
 		</AppModal>
+
+		<!-- <AppModalNew /> -->
 	</div>
 </template>
 
 <script setup>
-definePageMeta({
-	layout: "off",
-});
+	definePageMeta({
+		layout: false,
+	});
 
-const isModalActive = ref(false)
+	const isMailSent = ref(false);
+	const isModalActive = ref(false);
+	const sendMsgBtnTxt = ref("Confirm booking");
+
+	const booking = reactive({
+		date: "",
+		guest_count: 1,
+		service: "",
+		guest_name: "",
+		guest_email: "",
+		guest_phone: "",
+	});
+
+	const showBookingModal = (val) => {
+		console.log(val);
+		booking.service = val;
+		isModalActive.value = true;
+	};
+
+	const sendMessage = async () => {
+		console.log(booking);
+		sendMsgBtnTxt.value = "Booking...";
+		let { data } = await useFetch(
+			`/api/sendgrid?email=${booking.guest_email}&guest_count=${booking.guest_count}&phone=${booking.guest_phone}&name=${booking.guest_name}&service=${booking.service}&date=${booking.date}`
+		);
+		console.log(data.value);
+		isMailSent.value = true;
+
+		setTimeout(() => {
+			isMailSent.value = false;
+			isModalActive.value = false;
+			msg.name = "";
+			msg.email = "";
+			msg.phone = "";
+			msg.message = "";
+			sendMsgBtnTxt.value = "Confirm booking";
+		}, 5000);
+	};
 </script>
