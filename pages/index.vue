@@ -797,7 +797,7 @@
 			</div>
 		</footer>
 
-		<AppModal @close="isModalActive = false" :isActive="isModalActive">
+		<AppModal @close="clearForm" :isActive="isModalActive">
 			<div class="w-full sm:p-12 p-6 bg-gray-200 rounded-lg shadow-lg relative">
 				<div
 					class="flex flex-col sm:h-[calc(100vh-200px)] h-[calc(100vh-30px)]"
@@ -1103,13 +1103,27 @@
 		isMailSent.value = true;
 
 		setTimeout(() => {
+			booking.guest_name = "";
+			booking.guest_email = "";
+			booking.guest_phone = "";
+			booking.guest_count = 1;
+			booking.service = "";
+			booking.date = "";
+			sendMsgBtnTxt.value = "Confirm booking";
 			isMailSent.value = false;
 			isModalActive.value = false;
-			msg.name = "";
-			msg.email = "";
-			msg.phone = "";
-			msg.message = "";
-			sendMsgBtnTxt.value = "Confirm booking";
 		}, 5000);
+	};
+
+	const clearForm = () => {
+		booking.guest_name = "";
+		booking.guest_email = "";
+		booking.guest_phone = "";
+		booking.guest_count = 1;
+		booking.service = "";
+		booking.date = "";
+		sendMsgBtnTxt.value = "Confirm booking";
+		isMailSent.value = false;
+		isModalActive.value = false;
 	};
 </script>
