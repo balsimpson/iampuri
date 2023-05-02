@@ -1074,6 +1074,48 @@
 		layout: false,
 	});
 
+	useHead({
+		title: "I Am Puri - Authentic & Unique Experiences",
+		meta: [
+			{
+				name: "description",
+				content: "Connect with local experts in Puri, who can provide you with authentic and unique experiences that align with the principles of responsible travel.",
+			},
+			{
+				property: "og:title",
+				content: "I Am Puri - Authentic & Unique Experiences",
+			},
+			{
+				property: "og:description",
+				content: "Connect with local experts in Puri, who can provide you with authentic and unique experiences that align with the principles of responsible travel.",
+			},
+			{
+				property: "og:image",
+				content: "https://iampuri.com/herocopy.png",
+			},
+			{
+				property: "og:url",
+				content: "https://iampuri.com/",
+			},
+			{
+				name: "twitter:card",
+				content: "summary_large_image",
+			},
+			{
+				name: "twitter:title",
+				content: "I Am Puri - Authentic & Unique Experiences",
+			},
+			{
+				name: "twitter:description",
+				content: "Connect with local experts in Puri, who can provide you with authentic and unique experiences that align with the principles of responsible travel.",
+			},
+			{
+				name: "twitter:image",
+				content: "https://iampuri.com/herocopy.png",
+			},
+		],
+	});
+
 	const isMailSent = ref(false);
 	const isModalActive = ref(false);
 	const sendMsgBtnTxt = ref("Confirm booking");
