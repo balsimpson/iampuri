@@ -1,7 +1,13 @@
 <template>
 	<div>
+		<div class="flex items-center justify-between max-w-4xl mx-auto">
+			<img src="/iampuri_logo_op1.png" alt="" class="h-auto w-36" />
+			<div class="px-6">About Us</div>
+		</div>
 		<!-- <AppHero /> -->
-		<div class="flex flex-wrap items-center max-w-5xl px-12 pt-6 mx-auto">
+		<div
+			class="flex flex-wrap items-center justify-center max-w-5xl px-12 mx-auto"
+		>
 			<!-- <ImgInteractive /> -->
 			<div class="w-full lg:max-w-lg md:w-1/2 rounded-xl">
 				<div>
@@ -90,6 +96,7 @@
 						Your tagline
 					</span> -->
 				<!-- <img src="/logo1.png" alt="" class="max-w-[200px] mb-4"> -->
+
 				<h1
 					class="mb-2 text-5xl font-bold tracking-tighter text-center text-black md:text-left md:text-6xl"
 				>
@@ -122,28 +129,6 @@
 
 		<!-- services -->
 		<div class="relative max-w-5xl p-6 pb-12 mx-auto">
-			<div class="absolute -right-[300px] scale-50 bottom-0 z-90 opacity-60">
-				<svg
-					width="832"
-					height="974"
-					viewBox="0 0 832 974"
-					fill="none"
-					xmlns="http://www.w3.org/2000/svg"
-				>
-					<path
-						d="M479.719 13.6427C636.098 -32.6918 586.868 48.3936 699.808 141.063C714.288 153.662 717.184 170.022 722.976 254.003C728.767 337.984 763.518 340.88 812.749 491.467C861.979 642.055 809.853 891.103 685.329 821.601C560.805 752.099 572.388 943.229 479.719 966.396C387.05 989.564 77.1881 960.605 22.1658 856.352C-32.8564 752.099 30.8536 694.181 77.1881 642.055C123.523 589.928 117.731 393.007 111.939 340.88C106.147 288.754 152.482 245.315 259.63 225.044C366.779 204.773 323.34 59.9772 479.719 13.6427Z"
-						fill="#F77A40"
-					/>
-					<path
-						d="M490.43 89.2243C630.451 47.7364 586.37 120.34 687.497 203.316C700.462 214.598 703.055 229.246 708.241 304.443C713.427 379.639 744.543 382.232 788.624 517.068C832.705 651.903 786.031 874.901 674.532 812.669C563.033 750.437 573.405 921.575 490.43 942.319C407.454 963.062 130.004 937.133 80.7369 843.785C31.47 750.437 88.5159 698.577 130.004 651.904C171.492 605.23 166.306 428.906 161.12 382.232C155.934 335.559 197.422 296.664 293.362 278.513C389.303 260.362 350.408 130.712 490.43 89.2243Z"
-						fill="#FB9700"
-					/>
-					<path
-						d="M509.432 166.42C632.166 130.054 593.528 193.694 682.169 266.425C693.533 276.314 695.806 289.153 700.351 355.066C704.897 420.979 732.171 423.252 770.81 541.44C809.448 659.628 768.537 855.093 670.804 800.544C573.072 745.996 582.163 896.004 509.432 914.187C436.701 932.37 193.506 909.641 150.322 827.819C107.138 745.996 157.14 700.539 193.506 659.628C229.872 618.717 225.326 464.163 220.78 423.252C216.235 382.34 252.6 348.247 336.696 332.338C420.791 316.428 386.698 202.785 509.432 166.42Z"
-						fill="#FCC97E"
-					/>
-				</svg>
-			</div>
 			<div
 				class="z-50 flex flex-col items-center justify-center gap-8 my-12 sm:flex-row"
 			>
@@ -202,34 +187,109 @@
 					class="overflow-hidden sm:max-w-96 shrink-0"
 				/>
 				<ServiceCard
-					@clicked="showBookingModal('Bicycle Tour - Heritage Trail')"
-					title="Bicycle Tours"
-					description="Discover the beauty of the city on two wheels with our guided bicycle tours."
-					image="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_600,q_auto,w_auto/v1/filestore/30plok07lnbcgw3nys8ut201e3p3_1584967999_Blive-009.jpg"
+					@clicked="showBookingModal('Beach Tour')"
+					title="Beach Tour"
+					description="Discover the beauty of our beaches. You can even hire a local lifeguard."
+					image="https://www.dishanews.com/wp-content/uploads/2021/07/Golden_Beach.jpg"
 					class="overflow-hidden sm:max-w-96 shrink-0"
 				/>
 				<ServiceCard
-					@clicked="showBookingModal('Excursions')"
-					title="Excursions"
-					description="Explore the breathtaking landscapes of Puri on one of our excursions."
+					@clicked="showBookingModal('Heritage Walk')"
+					title="Heritage Walk"
+					description="Explore the breathtaking craftsmanship of heritage buildings and traditions."
 					image="https://www.drishtiias.com/images/uploads/1640860172_Sun_temple_drishti_ias_english.png"
 					class="overflow-hidden sm:max-w-96 shrink-0"
 				/>
 				<ServiceCard
-					@clicked="showBookingModal('Art Workshop')"
-					title="Workshops"
-					description="Learn from experts in a hands-on, interactive setting with our workshops."
-					image="https://www.nativeplanet.com/img/2015/04/22-1429700807-paintingsonbetelnutbytheartistsofraghurajpur.jpg"
+					@clicked="showBookingModal('Food Trail')"
+					title="Food Trail"
+					description="Satiate the sweet tooth in you and taste Malpua to khaja to kheer and many more"
+					image="/sweets_tour.png"
 					class="overflow-hidden sm:max-w-96 shrink-0"
 				/>
 			</div>
+		</div>
 
-			<div
-				class="flex max-w-5xl mx-auto mt-2 space-x-2 overflow-scroll snap-mandatory snap-x scroll-container"
-			>
-				<!-- <div class="flex gap-2 px-6 py-12"> -->
+		<!-- art tour -->
+		<!-- Hero -->
+		<div class="bg-slate-900">
+			<div class="bg-gradient-to-b from-violet-600/[.15] via-transparent">
+				<div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-24 space-y-8">
+					<!-- Announcement Banner -->
+					<div class="flex justify-center">
+						<a
+							class="group inline-block bg-white/[.05] hover:bg-white/[.1] border border-white/[.05] p-1 pl-4 rounded-full shadow-md"
+							href="../figma.html"
+						>
+							<p class="inline-block mr-2 text-sm text-white">Every Weekday</p>
+							<span
+								class="group-hover:bg-white/[.1] py-2 px-3 inline-flex justify-center items-center gap-x-2 rounded-full bg-white/[.075] font-semibold text-white text-sm"
+							>
+								<svg
+									class="w-2.5 h-2.5"
+									width="16"
+									height="16"
+									viewBox="0 0 16 16"
+									fill="none"
+								>
+									<path
+										d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14"
+										stroke="currentColor"
+										stroke-width="2"
+										stroke-linecap="round"
+									/>
+								</svg>
+							</span>
+						</a>
+					</div>
+					<!-- End Announcement Banner -->
+
+					<!-- Title -->
+					<div class="max-w-3xl mx-auto text-center">
+						<h1
+							class="block text-4xl font-medium text-gray-200 sm:text-5xl md:text-6xl lg:text-7xl"
+						>
+							Art Tour
+						</h1>
+					</div>
+					<!-- End Title -->
+
+					<div class="max-w-3xl mx-auto text-center">
+						<p class="text-lg text-gray-400">
+							Unleash your creativity and learn the timeless art of Pattachitra
+							with our expert instructors. Learn the secrets of Pattachitra from
+							esteemed local artists and create your own masterpiece.
+						</p>
+					</div>
+
+					<!-- Buttons -->
+					<div class="text-center">
+						<a
+							class="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-center text-white border border-transparent rounded-full shadow-lg gap-x-3 bg-gradient-to-tl from-blue-600 to-violet-600 shadow-transparent hover:shadow-blue-700/50 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white dark:focus:ring-offset-gray-800"
+							href="#"
+						>
+							Book now
+							<svg
+								class="w-2.5 h-2.5"
+								width="16"
+								height="16"
+								viewBox="0 0 16 16"
+								fill="none"
+							>
+								<path
+									d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+								/>
+							</svg>
+						</a>
+					</div>
+					<!-- End Buttons -->
+				</div>
 			</div>
 		</div>
+		<!-- End Hero -->
 
 		<!-- testimonials -->
 		<!-- <section class="relative bg-white dark:bg-gray-900">
@@ -345,7 +405,7 @@
 
 		<!-- bicycle tours -->
 		<div class="pb-12 bg-teal-800 pt-28">
-			<div class="max-w-5xl p-6 mx-auto text-white">
+			<div class="max-w-5xl p-6 mx-auto overflow-hidden text-white">
 				<div class="z-50 grid gap-4 sm:grid-cols-2">
 					<div class="p-6 text-teal-800 bg-white rounded-tl-3xl rounded-br-3xl">
 						<div class="text-6xl font-bold font-arvo">BICYCLE TOURS</div>
@@ -430,86 +490,139 @@
 			</div>
 		</div>
 
+		<div class="max-w-4xl p-3 pt-12 mx-auto">
+			<a class="relative block group" href="#">
+				<div
+					class="flex-shrink-0 relative rounded-xl overflow-hidden w-full h-[350px] before:absolute before:inset-x-0 before:w-full before:h-full before:bg-gradient-to-t before:from-gray-900/[.7] before:z-[1]"
+				>
+					<img
+						class="absolute top-0 left-0 object-cover w-full h-full"
+						src="https://www.tourmyindia.com/wildlife_sancturies/images/chilka-lake-odisha.jpg"
+						alt="Image Description"
+					/>
+				</div>
+
+				
+
+				<div class="absolute inset-x-0 bottom-0 z-10">
+					<div class="flex flex-col h-full p-4 sm:p-6">
+						<h3
+						class="block text-5xl font-bold text-gray-100 sm:text-4xl md:text-5xl lg:text-6xl"
+					>
+						Discover the serene majesty of Chilika Lake
+					</h3>
+						<!-- <p class="mt-2 text-white/[.8]">
+							Discover the serene majesty of Chilika Lake, India's largest
+							coastal lagoon, and witness its diverse avian inhabitants amidst a
+							picturesque setting. Marvel at the UNESCO World Heritage site of
+							Konark, where the grand Sun Temple stands tall.
+						</p> -->
+					</div>
+				</div>
+			</a>
+		</div>
+
+		<!-- Hero -->
+		<div class="relative max-w-4xl px-4 pb-12 mx-auto sm:px-6 lg:px-8">
+			<!-- SVG Element -->
+			<div class="absolute top-0 right-0 md:block -z-10">
+				<svg
+					class="w-16 h-auto text-orange-500"
+					width="121"
+					height="135"
+					viewBox="0 0 121 135"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+						d="M5 16.4754C11.7688 27.4499 21.2452 57.3224 5 89.0164"
+						stroke="currentColor"
+						stroke-width="10"
+						stroke-linecap="round"
+					/>
+					<path
+						d="M33.6761 112.104C44.6984 98.1239 74.2618 57.6776 83.4821 5"
+						stroke="currentColor"
+						stroke-width="10"
+						stroke-linecap="round"
+					/>
+					<path
+						d="M50.5525 130C68.2064 127.495 110.731 117.541 116 78.0874"
+						stroke="currentColor"
+						stroke-width="10"
+						stroke-linecap="round"
+					/>
+				</svg>
+			</div>
+			<!-- End SVG Element -->
+
+			<!-- SVG Element -->
+			<div class="absolute left-0 bottom-4 md:block -z-10">
+				<svg
+					class="w-40 h-auto text-cyan-500"
+					width="347"
+					height="188"
+					viewBox="0 0 347 188"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+						d="M4 82.4591C54.7956 92.8751 30.9771 162.782 68.2065 181.385C112.642 203.59 127.943 78.57 122.161 25.5053C120.504 2.2376 93.4028 -8.11128 89.7468 25.5053C85.8633 61.2125 130.186 199.678 180.982 146.248L214.898 107.02C224.322 95.4118 242.9 79.2851 258.6 107.02C274.299 134.754 299.315 125.589 309.861 117.539L343 93.4426"
+						stroke="currentColor"
+						stroke-width="7"
+						stroke-linecap="round"
+					/>
+				</svg>
+			</div>
+			<!-- End SVG Element -->
+			<!-- Grid -->
+			<div
+				class="z-30 grid lg:grid-cols-7 lg:gap-x-8 xl:gap-x-12 lg:items-center"
+			>
+				<div class="sm:col-span-3">
+					<!-- <h1
+						class="block text-5xl font-bold text-gray-800 sm:text-4xl md:text-5xl lg:text-6xl dark:text-white"
+					>
+						Discover the serene majesty of Chilika Lake
+					</h1> -->
+					<p class="mt-3 text-lg text-gray-800 dark:text-gray-400">
+						Discover the serene majesty of Chilika Lake, India's largest coastal
+						lagoon, and witness its diverse avian inhabitants amidst a
+						picturesque setting. Marvel at the UNESCO World Heritage site of
+						Konark, where the grand Sun Temple stands tall.
+
+						<!-- , adorned with
+						awe-inspiring stone carvings. Immerse yourself in the treasures of
+						Puri as you explore these iconic destinations, capturing the essence
+						of their magnificence. -->
+					</p>
+
+					<a
+						class="inline-flex items-center justify-center w-full px-4 py-3 mt-6 font-medium text-center text-white transition bg-blue-600 border border-transparent rounded-md sm:w-auto gap-x-3 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white dark:focus:ring-offset-gray-800"
+						href="#"
+					>
+						Book an excursion
+					</a>
+				</div>
+				<!-- End Col -->
+
+				<!-- <div class="mt-10 sm:col-span-4 lg:mt-0">
+					<img
+						class="w-full rounded-xl"
+						src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/80/32/10.jpg"
+						alt="Image Description"
+					/>
+				</div> -->
+				<!-- End Col -->
+			</div>
+			<!-- End Grid -->
+		</div>
+		<!-- End Hero -->
+
 		<!-- experiential tours -->
 		<div class="py-12 bg-gradient-to-b from-teal-800 via-cyan-600 to-gray-900">
 			<div class="max-w-5xl p-6 mx-auto text-stone-600">
-				<div class="relative mb-6">
-					<img src="/puri_beach2.png" alt="" class="rounded-lg" />
-					<div
-						class="absolute text-4xl font-bold text-white top-12 md:text-7xl left-12"
-					>
-						<span
-							class="font-bold text-transparent bg-clip-text bg-gradient-to-tr from-sky-400 via-sky-300 to-cyan-700 mix-blend-plus-lighter"
-							>EXPERIENTIAL</span
-						>
-						<br />TOURS
-					</div>
-
-					<div
-						class="max-w-md p-6 font-semibold tracking-wide text-gray-200 shadow sm:absolute bg-black/50 sm:text-xl bottom-20 left-12 rounded-tl-3xl rounded-br-3xl"
-					>
-						Feel like a local and immerse yourself in the charm of Puri with our
-						expertly planned experiential tours.
-					</div>
-				</div>
-
-				<div class="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
-					<div
-						class="flex flex-col items-center overflow-hidden border rounded-lg border-cyan-900"
-					>
-						<div class="w-full shrink-0">
-							<img
-								src="/walk_forest.png"
-								alt=""
-								class="object-cover w-full rounded-t-lg h-44"
-							/>
-						</div>
-						<div class="flex flex-col h-full p-6 bg-white text-cyan-900">
-							<div class="mb-1 text-3xl font-bold capitalize">Nature Walk</div>
-							<div class="h-2 bg-teal-600 rounded-lg w-44"></div>
-							<div class="mt-3 leading-relaxed">
-								Experience the calmness of the wild with the river guiding you
-								to the sea. Developed and maintained by the Forest Department of
-								Puri, this nature walk trail will leave you in awe of the
-								splendor of the green thickets of the coasts.
-							</div>
-							<button
-								@click.prevent="showBookingModal('Nature Walk')"
-								class="w-full p-3 mt-3 font-bold text-black rounded-lg bg-amber-400 sm:w-44 sm:inline-block"
-							>
-								Book Now
-							</button>
-						</div>
-					</div>
-
-					<div
-						class="flex flex-col items-center overflow-hidden border rounded-lg border-cyan-900"
-					>
-						<div class="w-full shrink-0">
-							<img
-								src="/sweets_tour.png"
-								alt=""
-								class="object-cover w-full rounded-t-lg h-44"
-							/>
-						</div>
-						<div class="flex flex-col h-full p-6 bg-white text-cyan-900">
-							<div class="mb-1 text-3xl font-bold capitalize">Sweets Tour</div>
-							<div class="h-2 rounded-lg bg-amber-600 w-44"></div>
-							<div class="flex-grow mt-3 leading-relaxed">
-								A number of traditional sweets are prepared and served by
-								decades-old Sweets shops located in the vicinity of Sree
-								Jagannath Temple. Satiate the sweet tooth in you and taste
-								Malpua to khaja to kheer and many more.
-							</div>
-							<button
-								@click.prevent="showBookingModal('Sweets Tour')"
-								class="w-full p-3 mt-3 font-bold text-black rounded-lg bg-amber-400 sm:w-44 sm:inline-block"
-							>
-								Book Now
-							</button>
-						</div>
-					</div>
-
+				<div class="grid gap-4">
 					<div
 						class="flex flex-col items-center overflow-hidden border rounded-lg border-cyan-900"
 					>
@@ -541,7 +654,7 @@
 			</div>
 		</div>
 
-		<div class="py-12 text-center text-white bg-gray-900 hero">
+		<div class="px-2 py-12 text-center text-white bg-gray-900 hero">
 			<h1 class="mb-6 text-5xl font-bold leading-none font-arvo">
 				<span class="text-purple-500">SATURDAY</span> HAAT
 			</h1>
@@ -798,7 +911,7 @@
 		</footer>
 
 		<AppModal @close="clearForm" :isActive="isModalActive">
-			<div class="w-full sm:p-12 p-6 bg-gray-200 rounded-lg shadow-lg relative">
+			<div class="relative w-full p-6 bg-gray-200 rounded-lg shadow-lg sm:p-12">
 				<div
 					class="flex flex-col sm:h-[calc(100vh-200px)] h-[calc(100vh-30px)]"
 				>
@@ -811,7 +924,7 @@
 
 							<form class="mt-2">
 								<div
-									class="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl"
+									class="p-4 text-left hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent hover:bg-gray-200 md:p-5 rounded-xl"
 									id="tabs-with-card-item-2"
 									data-hs-tab="#tabs-with-card-2"
 									aria-controls="tabs-with-card-2"
@@ -824,7 +937,7 @@
 											viewBox="0 0 24 24"
 											stroke-width="1.5"
 											stroke="currentColor"
-											class="flex-shrink-0 mt-2 h-6 w-6 md:w-7 md:h-7 hs-tab-active:text-blue-600 text-gray-800"
+											class="flex-shrink-0 w-6 h-6 mt-2 text-gray-800 md:w-7 md:h-7 hs-tab-active:text-blue-600"
 										>
 											<path
 												stroke-linecap="round"
@@ -833,9 +946,9 @@
 											/>
 										</svg>
 
-										<span class="grow ml-6">
+										<span class="ml-6 grow">
 											<span
-												class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200"
+												class="block text-lg font-semibold text-gray-800 hs-tab-active:text-blue-600 dark:hs-tab-active:text-blue-500 dark:text-gray-200"
 												>Booking details</span
 											>
 											<span
@@ -860,6 +973,7 @@
 											>
 												<option value="">Not selected</option>
 												<option value="Temple Visit">Temple Visit</option>
+												<option value="Beach Tour">Beach Tour</option>
 												<option value="Bicycle Tour - Heritage Trail">
 													Bicycle Tour - Heritage Trail
 												</option>
@@ -894,8 +1008,8 @@
 											/>
 										</div>
 
-										<div class="flex flex-col sm:flex-row gap-6 px-6 py-3">
-											<div class="sm:w-1/2 w-full">
+										<div class="flex flex-col gap-6 px-6 py-3 sm:flex-row">
+											<div class="w-full sm:w-1/2">
 												<label
 													class="block mb-2 text-sm font-bold text-gray-700"
 													for="name"
@@ -917,7 +1031,7 @@
 								<div>
 									<button
 										type="button"
-										class="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700"
+										class="p-4 text-left hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent hover:bg-gray-200 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700"
 										id="tabs-with-card-item-2"
 										data-hs-tab="#tabs-with-card-2"
 										aria-controls="tabs-with-card-2"
@@ -930,7 +1044,7 @@
 												viewBox="0 0 24 24"
 												stroke-width="1.5"
 												stroke="currentColor"
-												class="flex-shrink-0 mt-2 h-6 w-6 md:w-7 md:h-7 hs-tab-active:text-blue-600 text-gray-800"
+												class="flex-shrink-0 w-6 h-6 mt-2 text-gray-800 md:w-7 md:h-7 hs-tab-active:text-blue-600"
 											>
 												<path
 													stroke-linecap="round"
@@ -939,9 +1053,9 @@
 												/>
 											</svg>
 
-											<span class="grow ml-6">
+											<span class="ml-6 grow">
 												<span
-													class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200"
+													class="block text-lg font-semibold text-gray-800 hs-tab-active:text-blue-600 dark:hs-tab-active:text-blue-500 dark:text-gray-200"
 													>Contact details</span
 												>
 												<span
@@ -1009,7 +1123,7 @@
 
 						<div
 							v-else
-							class="text-center h-full flex flex-col justify-center items-center"
+							class="flex flex-col items-center justify-center h-full text-center"
 						>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -1036,7 +1150,7 @@
 					</div>
 					<div
 						v-if="!isMailSent"
-						class="flex justify-end items-center gap-x-2 py-3 mt-3"
+						class="flex items-center justify-end py-3 mt-3 gap-x-2"
 					>
 						<button
 							@click.prevent="isModalActive = !isModalActive"
@@ -1079,7 +1193,8 @@
 		meta: [
 			{
 				name: "description",
-				content: "Connect with local experts in Puri, who can provide you with authentic and unique experiences that align with the principles of responsible travel.",
+				content:
+					"Connect with local experts in Puri, who can provide you with authentic and unique experiences that align with the principles of responsible travel.",
 			},
 			{
 				property: "og:title",
@@ -1087,7 +1202,8 @@
 			},
 			{
 				property: "og:description",
-				content: "Connect with local experts in Puri, who can provide you with authentic and unique experiences that align with the principles of responsible travel.",
+				content:
+					"Connect with local experts in Puri, who can provide you with authentic and unique experiences that align with the principles of responsible travel.",
 			},
 			{
 				property: "og:image",
@@ -1107,7 +1223,8 @@
 			},
 			{
 				name: "twitter:description",
-				content: "Connect with local experts in Puri, who can provide you with authentic and unique experiences that align with the principles of responsible travel.",
+				content:
+					"Connect with local experts in Puri, who can provide you with authentic and unique experiences that align with the principles of responsible travel.",
 			},
 			{
 				name: "twitter:image",
