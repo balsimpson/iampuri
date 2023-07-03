@@ -502,15 +502,13 @@
 					/>
 				</div>
 
-				
-
 				<div class="absolute inset-x-0 bottom-0 z-10">
 					<div class="flex flex-col h-full p-4 sm:p-6">
 						<h3
-						class="block text-5xl font-bold text-gray-100 sm:text-4xl md:text-5xl lg:text-6xl"
-					>
-						Discover the serene majesty of Chilika Lake
-					</h3>
+							class="block text-5xl font-bold text-gray-100 sm:text-4xl md:text-5xl lg:text-6xl"
+						>
+							Discover the serene majesty of Chilika Lake
+						</h3>
 						<!-- <p class="mt-2 text-white/[.8]">
 							Discover the serene majesty of Chilika Lake, India's largest
 							coastal lagoon, and witness its diverse avian inhabitants amidst a
@@ -653,6 +651,139 @@
 				</div>
 			</div>
 		</div>
+
+		<!-- Odisha Eco Tourism -->
+		<div class="max-w-[65rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+			<!-- Grid -->
+			<div class="grid gap-10 md:grid-cols-5">
+				<div class="md:col-span-2">
+					<div class="max-w-xs">
+						<img
+							src="/odisha_eco_logo.jpeg"
+							alt=""
+							class="object-contain mx-auto overflow-hidden rounded-xl"
+						/>
+						<h2
+							class="pt-3 text-2xl font-bold md:text-4xl md:leading-tight dark:text-white"
+						>
+							Empowering<br />
+							local community
+						</h2>
+						<p class="hidden mt-1 text-gray-600 md:block dark:text-gray-400">
+							We are a passionate team of experienced tourism professionals with
+							our expertise in the field of responsible tourism for over two
+							decades. The seed of this foundation was sowed to grow into a
+							beautiful tree that protects and conserves the nature and our
+							cultural heritage. We aspire to empower and uplift the local
+							community and imbibe the meaningful benefits of eco and
+							responsible tourism right from the grass root level.
+						</p>
+					</div>
+				</div>
+				<!-- End Col -->
+
+				<div class="md:col-span-3">
+					<!-- Accordion -->
+					<div class="space-y-3 divide-y divide-gray-200">
+						<div class="py-3">
+							<h3
+								class="pb-3 font-semibold text-left text-gray-800 md:text-lg hover:text-gray-500"
+							>
+								Our Vision
+							</h3>
+							<p class="text-gray-600 dark:text-gray-400">
+								We strongly believe that responsible tourism can provide a
+								driving force to change lives and it is one of the best tools to
+								create positive economic, social and environmental impacts
+								throughout the globe.
+							</p>
+						</div>
+
+						<div
+							class="py-3"
+							id="hs-basic-with-title-and-arrow-stretched-heading-one"
+						>
+							<h3
+								class="pb-3 font-semibold text-left text-gray-800 md:text-lg hover:text-gray-500"
+							>
+								Our Mission
+							</h3>
+							<p class="text-gray-600 dark:text-gray-400">
+								Our mission is to empower the local community and ignite within
+								them a feeling of pride and respect for their natural and
+								cultural heritage.. We intend to create awareness, educate the
+								young minds beyond the four walls of classrooms and to instill
+								amongst them an ethereal love for Mother Earth. Supporting
+								projects related to eco tourism, training of local community at
+								grassroots level and raising voice where the negative impact of
+								tourism puts our nature and culture in danger are some of the
+								goals of Odisha Eco Tourism Foundations.
+							</p>
+						</div>
+
+						<div
+							class="py-3"
+							id="hs-basic-with-title-and-arrow-stretched-heading-one"
+						>
+							<h3
+								class="pb-3 font-semibold text-left text-gray-800 md:text-lg hover:text-gray-500"
+							>
+								Our Partners
+							</h3>
+							<p class="text-gray-600 dark:text-gray-400">
+								OETF welcomes likeminded businesses, organizations, individuals
+								who can contribute to meet the goal of the foundation .We are
+								thankful to all our partners as mentioned below for their
+								support and active participation.
+							</p>
+
+							<div class="flex pt-3">
+								<div>
+									<img
+										src="http://www.odishaecotourismfoundation.com/wp-content/uploads/2020/11/heritage-tours-orissa.png"
+										alt=""
+									/>
+									<a
+										href="https://www.heritagetoursorissa.com/"
+										target="_blank"
+									>
+										<h3 class="text-lg font-bold">Heritage Tours</h3>
+									</a>
+									<p>
+										Leading Tour Operator and specialized in Eco and Responsible
+										Tourism since 1997
+									</p>
+								</div>
+								<div>
+									<img
+										src="http://www.odishaecotourismfoundation.com/wp-content/uploads/2020/11/desia-koraput.png"
+										alt=""
+									/>
+									<a href="https://www.desiakoraput.com/" target="_blank">
+										<h3 class="text-lg font-bold">Desia Eco Tourism Camp</h3>
+									</a>
+
+									<p>
+										Our responsible tourism initiative and learning center at
+										Koraput valley in Odisha
+									</p>
+								</div>
+							</div>
+
+							<p class="py-3">
+								<span class="font-bold">Barefoot</span> – our sister concern and
+								a small NGO with a focus on volunteering for the need of the
+								society.
+							</p>
+						</div>
+					</div>
+					<!-- End Accordion -->
+				</div>
+				<!-- End Col -->
+			</div>
+			<!-- End Grid -->
+		</div>
+		<!-- End -->
 
 		<div class="px-2 py-12 text-center text-white bg-gray-900 hero">
 			<h1 class="mb-6 text-5xl font-bold leading-none font-arvo">
