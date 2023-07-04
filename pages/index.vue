@@ -160,13 +160,16 @@
 					</h2>
 
 					<p class="max-w-lg mt-3">
-						<span class="font-bold">I am Puri</span> is an initiative of <span class="font-bold">Odisha Ecotourism Foundation</span> Trust to promote  Responsible Tourism. Connect with local experts who can provide you with authentic and
-						unique experiences that align with the principles of
+						<span class="font-bold">I am Puri</span> is an initiative of
+						<span class="font-bold">Odisha Ecotourism Foundation</span> Trust to
+						promote Responsible Tourism. Connect with local experts who can
+						provide you with authentic and unique experiences that align with
+						the principles of
 						<span
 							class="font-bold text-transparent bg-clip-text bg-gradient-to-tr from-green-500 to-teal-600"
 							>responsible travel</span
-						>. From guided tours to temple visits, we will
-						show you the best of what our city has to offer.
+						>. From guided tours to temple visits, we will show you the best of
+						what our city has to offer.
 					</p>
 				</div>
 			</div>
@@ -217,9 +220,8 @@
 				<div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-24 space-y-8">
 					<!-- Announcement Banner -->
 					<div class="flex justify-center">
-						<a
+						<div
 							class="group inline-block bg-white/[.05] hover:bg-white/[.1] border border-white/[.05] p-1 pl-4 rounded-full shadow-md"
-							href="../figma.html"
 						>
 							<p class="inline-block mr-2 text-sm text-white">Every Weekday</p>
 							<span
@@ -240,7 +242,7 @@
 									/>
 								</svg>
 							</span>
-						</a>
+						</div>
 					</div>
 					<!-- End Announcement Banner -->
 
@@ -264,9 +266,9 @@
 
 					<!-- Buttons -->
 					<div class="text-center">
-						<a
+						<button
+							@click.prevent="showBookingModal('Art Tour')"
 							class="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-center text-white border border-transparent rounded-full shadow-lg gap-x-3 bg-gradient-to-tl from-blue-600 to-violet-600 shadow-transparent hover:shadow-blue-700/50 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white dark:focus:ring-offset-gray-800"
-							href="#"
 						>
 							Book now
 							<svg
@@ -283,7 +285,7 @@
 									stroke-linecap="round"
 								/>
 							</svg>
-						</a>
+						</button>
 					</div>
 					<!-- End Buttons -->
 				</div>
@@ -1119,6 +1121,7 @@
 												<option value="Guided Tour">Guided Tour</option>
 												<option value="Excursions">Excursions</option>
 												<option value="Nature Walk">Nature Walk</option>
+												<option value="Art Tour">Art Tour</option>
 												<option value="Sweets Tour">Sweets Tour</option>
 												<option value="Art Workshop">Art Workshop</option>
 												<option value="Saturday Haat">Saturday Haat</option>
