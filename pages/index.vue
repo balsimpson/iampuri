@@ -2,7 +2,7 @@
 	<div>
 		<div class="flex items-center justify-between max-w-4xl mx-auto">
 			<img src="/iampuri_logo_op1.png" alt="" class="h-auto w-36" />
-			<div class="px-6">About Us</div>
+			<!-- <div class="px-6">About Us</div> -->
 		</div>
 		<!-- <AppHero /> -->
 		<div
@@ -160,12 +160,12 @@
 					</h2>
 
 					<p class="max-w-lg mt-3">
-						Connect with local experts who can provide you with authentic and
+						<span class="font-bold">I am Puri</span> is an initiative of <span class="font-bold">Odisha Ecotourism Foundation</span> Trust to promote  Responsible Tourism. Connect with local experts who can provide you with authentic and
 						unique experiences that align with the principles of
 						<span
 							class="font-bold text-transparent bg-clip-text bg-gradient-to-tr from-green-500 to-teal-600"
 							>responsible travel</span
-						>. From guided tours to temple visits, our service providers will
+						>. From guided tours to temple visits, we will
 						show you the best of what our city has to offer.
 					</p>
 				</div>
@@ -190,7 +190,7 @@
 					@clicked="showBookingModal('Beach Tour')"
 					title="Beach Tour"
 					description="Discover the beauty of our beaches. You can even hire a local lifeguard."
-					image="https://www.dishanews.com/wp-content/uploads/2021/07/Golden_Beach.jpg"
+					image="/beach_trail.jpeg"
 					class="overflow-hidden sm:max-w-96 shrink-0"
 				/>
 				<ServiceCard
@@ -1105,6 +1105,8 @@
 												<option value="">Not selected</option>
 												<option value="Temple Visit">Temple Visit</option>
 												<option value="Beach Tour">Beach Tour</option>
+												<option value="Heritage Walk">Heritage Walk</option>
+												<option value="Food Trail">Food Trail</option>
 												<option value="Bicycle Tour - Heritage Trail">
 													Bicycle Tour - Heritage Trail
 												</option>
