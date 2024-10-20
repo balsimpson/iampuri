@@ -419,7 +419,7 @@
 
 					<div class="p-6 bg-teal-900 rounded-tl-3xl rounded-br-3xl">
 						<img
-							src="https://source.unsplash.com/random?heritage"
+							src="/bicycle_heritage.webp"
 							alt=""
 							class="object-cover w-full rounded-lg h-44"
 						/>
@@ -443,7 +443,7 @@
 						class="p-6 bg-teal-900 rounded-tl-3xl rounded-br-3xl hover:ring-2 hover:ring-teal-700"
 					>
 						<img
-							src="https://source.unsplash.com/random?countryside"
+							src="/bicycle_countryside.webp"
 							alt=""
 							class="object-cover w-full rounded-lg h-44"
 						/>
@@ -467,7 +467,7 @@
 					</div>
 					<div class="p-6 bg-teal-900 rounded-tl-3xl rounded-br-3xl">
 						<img
-							src="https://source.unsplash.com/random?forest"
+							src="/bicycle_forest.webp"
 							alt=""
 							class="object-cover w-full rounded-lg h-44"
 						/>
